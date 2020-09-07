@@ -1,0 +1,140 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# main_new-eagle-import_AK500_2
+#
+DEF main_new-eagle-import_AK500_2 X 0 40 Y Y 2 L N
+F0 "X" -50 35 59 H V R TNN
+F1 "main_new-eagle-import_AK500_2" -150 -145 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 50 1 0 10 N
+C 50 0 50 2 0 10 N
+X KL 1 200 0 100 L 0 0 1 0 P
+X KL 2 200 0 100 L 0 0 2 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_C-EU050-030X075
+#
+DEF main_new-eagle-import_C-EU050-030X075 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "main_new-eagle-import_C-EU050-030X075" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_CPOL-EUE5-8.5
+#
+DEF main_new-eagle-import_CPOL-EUE5-8.5 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "main_new-eagle-import_CPOL-EUE5-8.5" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_GND
+#
+DEF main_new-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "main_new-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_MOUNT-PAD-ROUND3.2
+#
+DEF main_new-eagle-import_MOUNT-PAD-ROUND3.2 H 0 40 Y Y 1 L N
+F0 "H" 110 23 59 H V L BNN
+F1 "main_new-eagle-import_MOUNT-PAD-ROUND3.2" 110 -97 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 81 71 829 1 0 40 N 80 10 10 80
+A 0 0 81 971 1729 1 0 40 N -10 80 -80 10
+A 0 0 81 -1729 -971 1 0 40 N -80 -10 -10 -80
+A 0 0 81 -829 -71 1 0 40 N 10 -80 80 -10
+C 0 0 60 1 0 2 N
+X MOUNT B3,2 -100 0 100 R 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_R-EU_0411_12
+#
+DEF main_new-eagle-import_R-EU_0411_12 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "main_new-eagle-import_R-EU_0411_12" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_SMA-142-0711-821_826
+#
+DEF main_new-eagle-import_SMA-142-0711-821_826 X 0 40 Y Y 1 L N
+F0 "X" -100 130 59 H V L BNN
+F1 "main_new-eagle-import_SMA-142-0711-821_826" -100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -98 0 100 115 911 1 0 12 N 0 20 -100 100
+A -98 0 100 -911 -115 1 0 12 N -100 -100 0 -20
+P 2 1 0 0 -100 20 -30 20 N
+P 2 1 0 0 -30 -20 -100 -20 N
+P 2 1 0 0 -30 20 -20 0 N
+P 2 1 0 0 -20 0 -30 -20 N
+P 2 1 0 0 0 -100 -30 -70 N
+P 2 1 0 0 0 0 -20 0 N
+X 1 1 100 0 100 L 0 0 1 0 P
+X 2 G@1 100 -100 100 L 0 0 1 0 P
+X 2 G@2 100 -100 100 L 0 0 1 0 P
+X 2 G@3 100 -100 100 L 0 0 1 0 P
+X 2 G@4 100 -100 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# main_new-eagle-import_SMD5
+#
+DEF main_new-eagle-import_SMD5 PAD 0 40 Y Y 1 L N
+F0 "PAD" -45 73 59 H V L BNN
+F1 "main_new-eagle-import_SMD5" -45 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -40 -40 40 40 N
+P 2 1 0 0 -40 40 40 -40 N
+X P 1 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

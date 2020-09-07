@@ -1,0 +1,202 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# rx_board-eagle-import_+3V3
+#
+DEF rx_board-eagle-import_+3V3 #+3V3 0 40 Y Y 1 L P
+F0 "#+3V3" 0 0 50 H I C CNN
+F1 "rx_board-eagle-import_+3V3" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +3V3 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_BAS70-04
+#
+DEF rx_board-eagle-import_BAS70-04 D 0 40 Y Y 1 L N
+F0 "D" 30 79 59 H V L BNN
+F1 "rx_board-eagle-import_BAS70-04" -170 -156 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 5 1 0 16 N
+P 2 1 0 0 -150 -50 -50 0 N
+P 2 1 0 0 -150 50 -150 -50 N
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -75 -40 -75 -50 N
+P 2 1 0 0 -50 -50 -75 -50 N
+P 2 1 0 0 -50 0 -150 50 N
+P 2 1 0 0 -50 0 -50 -50 N
+P 2 1 0 0 -50 0 150 0 N
+P 2 1 0 0 -50 50 -50 0 N
+P 2 1 0 0 -25 40 -25 50 N
+P 2 1 0 0 -25 50 -50 50 N
+P 2 1 0 0 50 -50 50 50 N
+P 2 1 0 0 50 50 150 0 N
+P 2 1 0 0 100 0 150 0 N
+P 2 1 0 0 125 -50 150 -50 N
+P 2 1 0 0 125 -40 125 -50 N
+P 2 1 0 0 150 -50 150 0 N
+P 2 1 0 0 150 0 50 -50 N
+P 2 1 0 0 150 0 150 50 N
+P 2 1 0 0 150 50 175 50 N
+P 2 1 0 0 175 40 175 50 N
+X A1 1 -200 0 100 R 0 0 1 0 P
+X C2 2 200 0 100 L 0 0 1 0 P
+X C1A2 3 0 100 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_C-EUC0805
+#
+DEF rx_board-eagle-import_C-EUC0805 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "rx_board-eagle-import_C-EUC0805" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_C-EUC1206
+#
+DEF rx_board-eagle-import_C-EUC1206 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "rx_board-eagle-import_C-EUC1206" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_GND
+#
+DEF rx_board-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "rx_board-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_PINHD-2X5_90
+#
+DEF rx_board-eagle-import_PINHD-2X5_90 JP 0 40 Y Y 1 L N
+F0 "JP" -250 325 59 H V L BNN
+F1 "rx_board-eagle-import_PINHD-2X5_90" -250 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -300 350 -300 N
+P 2 1 0 0 -250 300 -250 -300 N
+P 2 1 0 0 350 -300 350 300 N
+P 2 1 0 0 350 300 -250 300 N
+X 1 1 -100 200 100 R 50 0 1 0 P I
+X 10 10 200 -200 100 L 50 0 1 0 P I
+X 2 2 200 200 100 L 50 0 1 0 P I
+X 3 3 -100 100 100 R 50 0 1 0 P I
+X 4 4 200 100 100 L 50 0 1 0 P I
+X 5 5 -100 0 100 R 50 0 1 0 P I
+X 6 6 200 0 100 L 50 0 1 0 P I
+X 7 7 -100 -100 100 R 50 0 1 0 P I
+X 8 8 200 -100 100 L 50 0 1 0 P I
+X 9 9 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_R-EU_R0805
+#
+DEF rx_board-eagle-import_R-EU_R0805 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "rx_board-eagle-import_R-EU_R0805" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_SI4463-C2A-GM
+#
+DEF rx_board-eagle-import_SI4463-C2A-GM U 0 40 Y Y 1 L N
+F0 "U" -400 621 59 H V L BNN
+F1 "rx_board-eagle-import_SI4463-C2A-GM" -401 -802 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -400 -700 400 -700 N
+P 2 1 0 0 -400 600 -400 -700 N
+P 2 1 0 0 400 -700 400 600 N
+P 2 1 0 0 400 600 -400 600 N
+X SDN 1 -500 500 100 R 50 50 1 0 I
+X GPIO1 10 -500 -400 100 R 50 50 1 0 B
+X NIRQ 11 500 0 100 L 50 50 1 0 O
+X SCLK 12 -500 200 100 R 50 50 1 0 I
+X SDO 13 500 200 100 L 50 50 1 0 O
+X SDI 14 -500 0 100 R 50 50 1 0 I
+X NSEL 15 -500 100 100 R 50 50 1 0 I
+X XOUT 16 500 100 100 L 50 50 1 0 O
+X XIN 17 -500 -100 100 R 50 50 1 0 I
+X GND 18 500 -600 100 L 0 50 1 0 W
+X GPIO2 19 -500 -500 100 R 50 50 1 0 B
+X RXP 2 -500 400 100 R 50 50 1 0 I
+X GPIO3 20 -500 -600 100 R 50 50 1 0 B
+X GND 21 500 -600 100 L 0 50 1 0 W
+X RXN 3 -500 300 100 R 50 50 1 0 I
+X TX 4 500 -200 100 L 50 50 1 0 O
+X VDD 6 500 500 100 L 0 50 1 0 W
+X TXRAMP 7 500 -100 100 L 50 50 1 0 O
+X VDD 8 500 500 100 L 0 50 1 0 W
+X GPIO0 9 -500 -300 100 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# rx_board-eagle-import_SMA-142-0701-871_876
+#
+DEF rx_board-eagle-import_SMA-142-0701-871_876 X 0 40 Y Y 1 L N
+F0 "X" -100 130 59 H V L BNN
+F1 "rx_board-eagle-import_SMA-142-0701-871_876" -100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -98 0 100 115 911 1 0 12 N 0 20 -100 100
+A -98 0 100 -911 -115 1 0 12 N -100 -100 0 -20
+P 2 1 0 0 -100 20 -30 20 N
+P 2 1 0 0 -30 -20 -100 -20 N
+P 2 1 0 0 -30 20 -20 0 N
+P 2 1 0 0 -20 0 -30 -20 N
+P 2 1 0 0 0 -100 -30 -70 N
+P 2 1 0 0 0 0 -20 0 N
+X 1 1 100 0 100 L 0 0 1 0 P
+X 2 G@1 100 -100 100 L 0 0 1 0 P
+X 2 G@2 100 -100 100 L 0 0 1 0 P
+X 2 G@3 100 -100 100 L 0 0 1 0 P
+X 2 G@4 100 -100 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

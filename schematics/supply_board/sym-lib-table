@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name supply_board-eagle-import)(type Legacy)(uri ${KIPRJMOD}/supply_board-eagle-import.lib)(options "")(descr ""))
+)

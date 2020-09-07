@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 2500 2400 2500
+Wire Wire Line
+	2400 2500 2400 2800
+Wire Wire Line
+	2400 2800 2400 3100
+Wire Wire Line
+	2400 3100 2400 3400
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	2400 3400 2500 3400
+Wire Wire Line
+	2500 3100 2400 3100
+Wire Wire Line
+	2400 2800 2500 2800
+Connection ~ 2400 3400
+Connection ~ 2400 3100
+Connection ~ 2400 2800
+Text Label 2500 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 3600 5500 3600
+Wire Wire Line
+	5500 3600 5500 3700
+Text Label 5400 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	8600 3600 8500 3600
+Wire Wire Line
+	8500 3600 8500 3700
+Text Label 8600 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	7100 4600 7000 4600
+Wire Wire Line
+	7000 4000 7000 3700
+Wire Wire Line
+	7000 4000 7100 4000
+Wire Wire Line
+	7000 3700 7100 3700
+Wire Wire Line
+	7000 4600 7000 4000
+Wire Wire Line
+	7000 4600 7000 5000
+Wire Wire Line
+	7000 5000 7000 5300
+Wire Wire Line
+	7000 5000 6000 5000
+Wire Wire Line
+	6000 5000 5700 5000
+Wire Wire Line
+	5700 5000 5700 5100
+Wire Wire Line
+	6100 3700 6000 3700
+Wire Wire Line
+	6000 3700 6000 4000
+Wire Wire Line
+	6000 4000 6000 4600
+Wire Wire Line
+	6000 4600 6100 4600
+Wire Wire Line
+	6100 4000 6000 4000
+Wire Wire Line
+	6000 4600 6000 5000
+Wire Wire Line
+	6000 5000 6000 5300
+Connection ~ 7000 4000
+Connection ~ 7000 4600
+Connection ~ 6000 4000
+Connection ~ 6000 4600
+Connection ~ 6000 5000
+Connection ~ 7000 5000
+Text Label 7100 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 2800
+Wire Wire Line
+	8600 3500 8500 3500
+Wire Wire Line
+	8500 3500 8500 2800
+Wire Wire Line
+	7400 4000 7500 4000
+Wire Wire Line
+	7500 4000 7500 3700
+Wire Wire Line
+	7500 3700 7500 2800
+Wire Wire Line
+	7500 4100 7500 4000
+Wire Wire Line
+	7400 3700 7500 3700
+Connection ~ 7500 4000
+Connection ~ 7500 3700
+Wire Wire Line
+	6400 3700 6500 3700
+Wire Wire Line
+	6500 3700 6500 4000
+Wire Wire Line
+	6500 4000 6500 4100
+Wire Wire Line
+	6400 4000 6500 4000
+Wire Wire Line
+	6500 2800 6500 3700
+Connection ~ 6500 3700
+Connection ~ 6500 4000
+Wire Wire Line
+	6500 5300 6500 4600
+Wire Wire Line
+	6500 4600 6500 4500
+Wire Wire Line
+	6400 4600 6500 4600
+Connection ~ 6500 4600
+Wire Wire Line
+	7500 4600 7400 4600
+Wire Wire Line
+	7500 4600 7500 4500
+Wire Wire Line
+	7500 5300 7500 4600
+Connection ~ 7500 4600
+$Comp
+L main_new-eagle-import:MOUNT-PAD-ROUND3.2 H1
+U 1 1 9910BFD8
+P 2600 2500
+F 0 "H1" H 2710 2523 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 2710 2403 59  0000 L BNN
+F 2 "main_new:3,2-PAD" H 2600 2500 50  0001 C CNN
+F 3 "" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:MOUNT-PAD-ROUND3.2 H2
+U 1 1 5D268E00
+P 2600 2800
+F 0 "H2" H 2710 2823 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 2710 2703 59  0000 L BNN
+F 2 "main_new:3,2-PAD" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:MOUNT-PAD-ROUND3.2 H3
+U 1 1 DE67D20D
+P 2600 3100
+F 0 "H3" H 2710 3123 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 2710 3003 59  0000 L BNN
+F 2 "main_new:3,2-PAD" H 2600 3100 50  0001 C CNN
+F 3 "" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:MOUNT-PAD-ROUND3.2 H4
+U 1 1 EA162BAB
+P 2600 3400
+F 0 "H4" H 2710 3423 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND3.2" H 2710 3303 59  0000 L BNN
+F 2 "main_new:3,2-PAD" H 2600 3400 50  0001 C CNN
+F 3 "" H 2600 3400 50  0001 C CNN
+	1    2600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:SMD5 PAD1
+U 1 1 BDB91568
+P 5500 2700
+F 0 "PAD1" H 5455 2773 59  0000 L BNN
+F 1 "SMD5" H 5455 2570 59  0000 L BNN
+F 2 "main_new:SMD2,54-5,08" H 5500 2700 50  0001 C CNN
+F 3 "" H 5500 2700 50  0001 C CNN
+	1    5500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:SMD5 PAD2
+U 1 1 3C2A47BC
+P 6500 2700
+F 0 "PAD2" H 6455 2773 59  0000 L BNN
+F 1 "SMD5" H 6455 2570 59  0000 L BNN
+F 2 "main_new:SMD2,54-5,08" H 6500 2700 50  0001 C CNN
+F 3 "" H 6500 2700 50  0001 C CNN
+	1    6500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:SMD5 PAD3
+U 1 1 9A22E34B
+P 7500 2700
+F 0 "PAD3" H 7455 2773 59  0000 L BNN
+F 1 "SMD5" H 7455 2570 59  0000 L BNN
+F 2 "main_new:SMD2,54-5,08" H 7500 2700 50  0001 C CNN
+F 3 "" H 7500 2700 50  0001 C CNN
+	1    7500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:SMD5 PAD4
+U 1 1 2256D15B
+P 8500 2700
+F 0 "PAD4" H 8455 2773 59  0000 L BNN
+F 1 "SMD5" H 8455 2570 59  0000 L BNN
+F 2 "main_new:SMD2,54-5,08" H 8500 2700 50  0001 C CNN
+F 3 "" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:GND #GND01
+U 1 1 8DA2BB24
+P 2400 3600
+F 0 "#GND01" H 2400 3600 50  0001 C CNN
+F 1 "GND" H 2300 3500 59  0000 L BNN
+F 2 "" H 2400 3600 50  0001 C CNN
+F 3 "" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:SMA-142-0711-821_826 X1
+U 1 1 250C3D1D
+P 5300 3500
+F 0 "X1" H 5200 3630 59  0000 L BNN
+F 1 "SMA" H 5200 3300 59  0000 L BNN
+F 2 "main_new:J502-ND-142-0711-821_826" H 5300 3500 50  0001 C CNN
+F 3 "" H 5300 3500 50  0001 C CNN
+	1    5300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:SMA-142-0711-821_826 X2
+U 1 1 4D1F0A27
+P 8700 3500
+F 0 "X2" H 8600 3630 59  0000 L BNN
+F 1 "SMA" H 8600 3300 59  0000 L BNN
+F 2 "main_new:J502-ND-142-0711-821_826" H 8700 3500 50  0001 C CNN
+F 3 "" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:GND #GND02
+U 1 1 4877C9E2
+P 5500 3800
+F 0 "#GND02" H 5500 3800 50  0001 C CNN
+F 1 "GND" H 5400 3700 59  0000 L BNN
+F 2 "" H 5500 3800 50  0001 C CNN
+F 3 "" H 5500 3800 50  0001 C CNN
+	1    5500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:GND #GND03
+U 1 1 21137572
+P 8500 3800
+F 0 "#GND03" H 8500 3800 50  0001 C CNN
+F 1 "GND" H 8400 3700 59  0000 L BNN
+F 2 "" H 8500 3800 50  0001 C CNN
+F 3 "" H 8500 3800 50  0001 C CNN
+	1    8500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L main_new-eagle-import:CPOL-EUE5-8.5 C1
+U 1 1 F3B28787
+P 6300 3700
+F 0 "C1" H 6345 3719 59  0000 L BNN
+F 1 "10u" H 6345 3519 59  0000 L BNN
+F 2 "main_new:E5-8,5" H 6300 3700 50  0001 C CNN
+F 3 "" H 6300 3700 50  0001 C CNN
+	1    6300 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:CPOL-EUE5-8.5 C2
+U 1 1 97363537
+P 7300 3700
+F 0 "C2" H 7345 3719 59  0000 L BNN
+F 1 "10u" H 7345 3519 59  0000 L BNN
+F 2 "main_new:E5-8,5" H 7300 3700 50  0001 C CNN
+F 3 "" H 7300 3700 50  0001 C CNN
+	1    7300 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:C-EU050-030X075 C3
+U 1 1 30898867
+P 6300 4000
+F 0 "C3" H 6360 4015 59  0000 L BNN
+F 1 "15n" H 6360 3815 59  0000 L BNN
+F 2 "main_new:C050-030X075" H 6300 4000 50  0001 C CNN
+F 3 "" H 6300 4000 50  0001 C CNN
+	1    6300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:C-EU050-030X075 C4
+U 1 1 BB1807DC
+P 7200 4000
+F 0 "C4" H 7260 4015 59  0000 L BNN
+F 1 "15n" H 7260 3815 59  0000 L BNN
+F 2 "main_new:C050-030X075" H 7200 4000 50  0001 C CNN
+F 3 "" H 7200 4000 50  0001 C CNN
+	1    7200 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:C-EU050-030X075 C5
+U 1 1 931E893A
+P 6300 4600
+F 0 "C5" H 6360 4615 59  0000 L BNN
+F 1 "15n" H 6360 4415 59  0000 L BNN
+F 2 "main_new:C050-030X075" H 6300 4600 50  0001 C CNN
+F 3 "" H 6300 4600 50  0001 C CNN
+	1    6300 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:C-EU050-030X075 C6
+U 1 1 3CBFD1C8
+P 7300 4600
+F 0 "C6" H 7360 4615 59  0000 L BNN
+F 1 "15n" H 7360 4415 59  0000 L BNN
+F 2 "main_new:C050-030X075" H 7300 4600 50  0001 C CNN
+F 3 "" H 7300 4600 50  0001 C CNN
+	1    7300 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L main_new-eagle-import:R-EU_0411_12 R1
+U 1 1 23FCBBB2
+P 6500 4300
+F 0 "R1" H 6350 4359 59  0000 L BNN
+F 1 "8/0.8/5.0" H 6350 4170 59  0000 L BNN
+F 2 "main_new:0411_12" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:R-EU_0411_12 R2
+U 1 1 F2C45C0F
+P 7500 4300
+F 0 "R2" H 7350 4359 59  0000 L BNN
+F 1 "8/0.8/5.0" H 7350 4170 59  0000 L BNN
+F 2 "main_new:0411_12" H 7500 4300 50  0001 C CNN
+F 3 "" H 7500 4300 50  0001 C CNN
+	1    7500 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:AK500_2 X3
+U 1 1 D0EFEB30
+P 7000 5500
+F 0 "X3" H 6950 5535 59  0000 R TNN
+F 1 "AK500_2" H 6850 5355 59  0000 L BNN
+F 2 "main_new:AK500_2" H 7000 5500 50  0001 C CNN
+F 3 "" H 7000 5500 50  0001 C CNN
+	1    7000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:AK500_2 X3
+U 2 1 D0EFEB3C
+P 7500 5500
+F 0 "X3" H 7450 5535 59  0000 R TNN
+F 1 "AK500_2" H 7350 5355 59  0000 L BNN
+F 2 "main_new:AK500_2" H 7500 5500 50  0001 C CNN
+F 3 "" H 7500 5500 50  0001 C CNN
+	2    7500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:AK500_2 X4
+U 1 1 38D8100C
+P 6000 5500
+F 0 "X4" H 5950 5535 59  0000 R TNN
+F 1 "AK500_2" H 5850 5355 59  0000 L BNN
+F 2 "main_new:AK500_2" H 6000 5500 50  0001 C CNN
+F 3 "" H 6000 5500 50  0001 C CNN
+	1    6000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:AK500_2 X4
+U 2 1 38D81000
+P 6500 5500
+F 0 "X4" H 6450 5535 59  0000 R TNN
+F 1 "AK500_2" H 6350 5355 59  0000 L BNN
+F 2 "main_new:AK500_2" H 6500 5500 50  0001 C CNN
+F 3 "" H 6500 5500 50  0001 C CNN
+	2    6500 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L main_new-eagle-import:GND #GND04
+U 1 1 12C122FD
+P 5700 5200
+F 0 "#GND04" H 5700 5200 50  0001 C CNN
+F 1 "GND" H 5600 5100 59  0000 L BNN
+F 2 "" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+	1    5700 5200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

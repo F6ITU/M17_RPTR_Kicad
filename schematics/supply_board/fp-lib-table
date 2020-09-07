@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name supply_board)(type KiCad)(uri "$(KIPRJMOD)/supply_board.pretty")(options "")(descr ""))
+)

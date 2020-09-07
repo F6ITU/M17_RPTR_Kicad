@@ -1,0 +1,392 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# fan_ctrl-eagle-import_+12V
+#
+DEF fan_ctrl-eagle-import_+12V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "fan_ctrl-eagle-import_+12V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 50 -50 -25 N
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 50 -25 0 50 N
+X +12V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_+5V
+#
+DEF fan_ctrl-eagle-import_+5V #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "fan_ctrl-eagle-import_+5V" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_-NPN-TO92-EBC
+#
+DEF fan_ctrl-eagle-import_-NPN-TO92-EBC T 0 40 Y Y 1 L N
+F0 "T" -400 300 59 H V L BNN
+F1 "fan_ctrl-eagle-import_-NPN-TO92-EBC" -400 200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -10 -100 20 100 1 0 0 F
+P 2 1 0 0 50 -100 70 -60 N
+P 2 1 0 0 60 -95 90 -95 N
+P 2 1 0 0 60 -90 75 -90 N
+P 2 1 0 0 60 -80 12 -56 N
+P 2 1 0 0 70 -70 60 -90 N
+P 2 1 0 0 70 -60 100 -100 N
+P 2 1 0 0 75 -90 70 -80 N
+P 2 1 0 0 90 -95 70 -70 N
+P 2 1 0 0 100 -100 50 -100 N
+P 2 1 0 0 100 100 20 60 N
+X B B -100 0 100 R 0 0 1 0 P
+X C C 100 200 100 D 0 0 1 0 P
+X E E 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_74590N
+#
+DEF fan_ctrl-eagle-import_74590N IC 0 40 Y Y 2 L N
+F0 "IC" -25 -25 59 H V L BNN
+F1 "fan_ctrl-eagle-import_74590N" -300 -700 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 75 -230 42 0 2 0 GND Normal 0 L B
+T 900 75 100 42 0 2 0 VCC Normal 0 L B
+P 2 1 0 0 -300 -600 300 -600 N
+P 2 1 0 0 -300 500 -300 -600 N
+P 2 1 0 0 300 -600 300 500 N
+P 2 1 0 0 300 500 -300 500 N
+X QB 1 500 300 200 L 50 50 1 0 T
+X CCLR 10 -500 200 200 R 50 50 1 0 I I
+X CLK 11 -500 400 200 R 50 50 1 0 I C
+X CCKEN 12 -500 300 200 R 50 50 1 0 I I
+X RCK 13 -500 0 200 R 50 50 1 0 I C
+X G 14 -500 -500 200 R 50 50 1 0 I I
+X QA 15 500 400 200 L 50 50 1 0 T
+X QC 2 500 200 200 L 50 50 1 0 T
+X QD 3 500 100 200 L 50 50 1 0 T
+X QE 4 500 0 200 L 50 50 1 0 T
+X QF 5 500 -100 200 L 50 50 1 0 T
+X QG 6 500 -200 200 L 50 50 1 0 T
+X QH 7 500 -300 200 L 50 50 1 0 T
+X RCO 9 500 -500 200 L 50 50 1 0 O I
+X VCC 16 0 300 200 D 50 0 2 0 W
+X GND 8 0 -300 200 U 50 0 2 0 W
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_BD140
+#
+DEF fan_ctrl-eagle-import_BD140 Q 0 40 Y Y 1 L N
+F0 "Q" 200 100 59 H V L BNN
+F1 "fan_ctrl-eagle-import_BD140" 200 0 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -15 -100 15 100 1 0 0 F
+P 2 1 0 0 0 0 40 40 N
+P 2 1 0 0 40 40 45 45 N
+P 2 1 0 0 40 40 65 95 N
+P 2 1 0 0 45 45 75 75 N
+P 2 1 0 0 45 45 85 65 N
+P 2 1 0 0 65 75 75 65 N
+P 2 1 0 0 65 85 45 45 N
+P 2 1 0 0 65 95 95 65 N
+P 2 1 0 0 75 75 65 85 N
+P 2 1 0 0 75 75 100 100 N
+P 2 1 0 0 85 65 75 75 N
+P 2 1 0 0 95 65 40 40 N
+P 2 1 0 0 100 -100 0 0 N
+X B B -100 0 100 R 0 0 1 0 P
+X C C 100 -200 100 U 0 0 1 0 P
+X E E 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_BSS123
+#
+DEF fan_ctrl-eagle-import_BSS123 Q 0 40 Y Y 1 L N
+F0 "Q" 100 0 59 H V L BNN
+F1 "fan_ctrl-eagle-import_BSS123" 100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -110 14 1 0 0 N
+C 0 -80 14 1 0 0 N
+C 0 120 14 1 0 0 N
+S -80 -100 -60 -50 1 0 0 F
+S -80 -30 -60 30 1 0 0 F
+S -80 50 -60 100 1 0 0 F
+P 2 1 0 0 -100 100 -100 -100 N
+P 2 1 0 0 -60 -80 0 -80 N
+P 2 1 0 0 -60 0 -50 0 N
+P 2 1 0 0 -60 80 0 80 N
+P 2 1 0 0 -50 0 -40 0 N
+P 2 1 0 0 -50 0 -10 15 N
+P 2 1 0 0 -40 0 -35 0 N
+P 2 1 0 0 -40 0 -15 -10 N
+P 2 1 0 0 -35 0 0 0 N
+P 2 1 0 0 -15 -10 -15 10 N
+P 2 1 0 0 -15 10 -35 0 N
+P 2 1 0 0 -10 -15 -50 0 N
+P 2 1 0 0 -10 15 -10 -15 N
+P 2 1 0 0 0 -80 0 -110 N
+P 2 1 0 0 0 0 0 -80 N
+P 2 1 0 0 0 80 0 100 N
+P 2 1 0 0 0 120 50 120 N
+P 2 1 0 0 30 0 50 30 N
+P 2 1 0 0 40 5 60 5 N
+P 2 1 0 0 50 -110 0 -110 N
+P 2 1 0 0 50 20 40 5 N
+P 2 1 0 0 50 20 50 -110 N
+P 2 1 0 0 50 30 50 20 N
+P 2 1 0 0 50 30 70 0 N
+P 2 1 0 0 50 120 50 30 N
+P 2 1 0 0 60 5 50 20 N
+P 2 1 0 0 70 0 30 0 N
+P 2 1 0 0 70 30 30 30 N
+X G 1 -200 -100 100 R 0 0 1 0 P
+X S 2 0 -200 100 U 0 0 1 0 P
+X D 3 0 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_C-EUC0805
+#
+DEF fan_ctrl-eagle-import_C-EUC0805 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "fan_ctrl-eagle-import_C-EUC0805" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_CPOL-EUE3.5-8
+#
+DEF fan_ctrl-eagle-import_CPOL-EUE3.5-8 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "fan_ctrl-eagle-import_CPOL-EUE3.5-8" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_GND
+#
+DEF fan_ctrl-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "fan_ctrl-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_LD117A?S
+#
+DEF fan_ctrl-eagle-import_LD117A?S IC 0 40 Y Y 1 L N
+F0 "IC" 100 -300 59 H V L BNN
+F1 "fan_ctrl-eagle-import_LD117A?S" 100 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -80 -170 51 0 1 0 ADJ Normal 0 L B
+T 0 -175 -25 51 0 1 0 IN Normal 0 L B
+T 0 5 -25 51 0 1 0 OUT Normal 0 L B
+P 2 1 0 0 -200 -200 200 -200 N
+P 2 1 0 0 -200 100 -200 -200 N
+P 2 1 0 0 200 -200 200 100 N
+P 2 1 0 0 200 100 -200 100 N
+X ADJ 1 0 -300 100 U 0 0 1 0 I
+X IN 3 -300 0 100 R 0 0 1 0 I
+X OUT 4 300 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_LM358N
+#
+DEF fan_ctrl-eagle-import_LM358N IC 0 40 Y Y 3 L N
+F0 "IC" 100 125 59 H I L BNN
+F1 "fan_ctrl-eagle-import_LM358N" 100 -200 59 H I L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 50 125 27 0 3 0 V+ Normal 0 L B
+T 900 50 -175 27 0 3 0 V- Normal 0 L B
+P 2 1 0 0 -200 -200 200 0 N
+P 2 1 0 0 -200 200 -200 -200 N
+P 2 1 0 0 -175 -100 -125 -100 N
+P 2 1 0 0 -175 100 -125 100 N
+P 2 1 0 0 -150 125 -150 75 N
+P 2 1 0 0 200 0 -200 200 N
+P 2 2 0 0 -200 -200 200 0 N
+P 2 2 0 0 -200 200 -200 -200 N
+P 2 2 0 0 -175 -100 -125 -100 N
+P 2 2 0 0 -175 100 -125 100 N
+P 2 2 0 0 -150 125 -150 75 N
+P 2 2 0 0 200 0 -200 200 N
+X OUT 1 300 0 100 L 50 0 1 0 O
+X -IN 2 -300 -100 100 R 50 0 1 0 I
+X +IN 3 -300 100 100 R 50 0 1 0 I
+X +IN 5 -300 100 100 R 50 0 2 0 I
+X -IN 6 -300 -100 100 R 50 0 2 0 I
+X OUT 7 300 0 100 L 50 0 2 0 O
+X V- 4 0 -300 200 U 50 0 3 0 W
+X V+ 8 0 300 200 D 50 0 3 0 W
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_MOUNT-PAD-ROUND3.2
+#
+DEF fan_ctrl-eagle-import_MOUNT-PAD-ROUND3.2 H 0 40 Y Y 1 L N
+F0 "H" 110 23 59 H V L BNN
+F1 "fan_ctrl-eagle-import_MOUNT-PAD-ROUND3.2" 110 -97 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A 0 0 81 71 829 1 0 40 N 80 10 10 80
+A 0 0 81 971 1729 1 0 40 N -10 80 -80 10
+A 0 0 81 -1729 -971 1 0 40 N -80 -10 -10 -80
+A 0 0 81 -829 -71 1 0 40 N 10 -80 80 -10
+C 0 0 60 1 0 2 N
+X MOUNT B3,2 -100 0 100 R 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_PCF8574P
+#
+DEF fan_ctrl-eagle-import_PCF8574P IC 0 40 Y Y 1 L N
+F0 "IC" -300 650 59 H V L BNN
+F1 "fan_ctrl-eagle-import_PCF8574P" -300 -800 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -700 -300 600 N
+P 2 1 0 0 -300 600 400 600 N
+P 2 1 0 0 400 -700 -300 -700 N
+P 2 1 0 0 400 600 400 -700 N
+X A0 1 -400 -200 100 R 50 50 1 0 I
+X P5 10 500 -200 100 L 50 50 1 0 B
+X P6 11 500 -300 100 L 50 50 1 0 B
+X P7 12 500 -400 100 L 50 50 1 0 B
+X ~INT 13 -400 300 100 R 50 50 1 0 O
+X SCL 14 -400 0 100 R 50 50 1 0 I
+X SDA 15 -400 100 100 R 50 50 1 0 B
+X VDD 16 500 500 100 L 50 50 1 0 W
+X A1 2 -400 -300 100 R 50 50 1 0 I
+X A2 3 -400 -400 100 R 50 50 1 0 I
+X P0 4 500 300 100 L 50 50 1 0 B
+X P1 5 500 200 100 L 50 50 1 0 B
+X P2 6 500 100 100 L 50 50 1 0 B
+X P3 7 500 0 100 L 50 50 1 0 B
+X VSS 8 500 -600 100 L 50 50 1 0 W
+X P4 9 500 -100 100 L 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_PINHD-1X3
+#
+DEF fan_ctrl-eagle-import_PINHD-1X3 JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "fan_ctrl-eagle-import_PINHD-1X3" -250 -300 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -200 50 -200 N
+P 2 1 0 0 -250 200 -250 -200 N
+P 2 1 0 0 50 -200 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+X 3 3 -100 -100 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_PINHD-1X6
+#
+DEF fan_ctrl-eagle-import_PINHD-1X6 JP 0 40 Y Y 1 L N
+F0 "JP" -250 425 59 H V L BNN
+F1 "fan_ctrl-eagle-import_PINHD-1X6" -250 -400 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -300 50 -300 N
+P 2 1 0 0 -250 400 -250 -300 N
+P 2 1 0 0 50 -300 50 400 N
+P 2 1 0 0 50 400 -250 400 N
+X 1 1 -100 300 100 R 50 0 1 0 P I
+X 2 2 -100 200 100 R 50 0 1 0 P I
+X 3 3 -100 100 100 R 50 0 1 0 P I
+X 4 4 -100 0 100 R 50 0 1 0 P I
+X 5 5 -100 -100 100 R 50 0 1 0 P I
+X 6 6 -100 -200 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_R-EU_R0805
+#
+DEF fan_ctrl-eagle-import_R-EU_R0805 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "fan_ctrl-eagle-import_R-EU_R0805" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# fan_ctrl-eagle-import_TPB2,54
+#
+DEF fan_ctrl-eagle-import_TPB2,54 TP 0 40 Y Y 1 L N
+F0 "TP" -50 50 59 H V L BNN
+F1 "fan_ctrl-eagle-import_TPB2,54" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 50 -50 59 0 1 0 >TP_SIGNAL_NAME Normal 0 L B
+P 2 1 0 0 -30 -30 0 0 N
+P 2 1 0 0 0 -60 -30 -30 N
+P 2 1 0 0 0 0 30 -30 N
+P 2 1 0 0 30 -30 0 -60 N
+X TP TP 0 -100 100 U 0 0 1 0 I
+ENDDRAW
+ENDDEF
+#
+#End Library

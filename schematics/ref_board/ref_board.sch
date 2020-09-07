@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4300 3100 4200 3100
+Wire Wire Line
+	4200 3100 4200 3000
+Text Label 4300 3100 0    10   ~ 0
++3V3
+Wire Wire Line
+	5500 4800 5500 4700
+Wire Wire Line
+	5500 4700 5100 4700
+Wire Wire Line
+	5100 4700 4700 4700
+Wire Wire Line
+	4700 4800 4700 4700
+Wire Wire Line
+	5100 4800 5100 4700
+Wire Wire Line
+	4700 4700 4700 4600
+Connection ~ 4700 4700
+Connection ~ 5100 4700
+Text Label 5500 4800 0    10   ~ 0
++3V3
+Wire Wire Line
+	7000 3100 7300 3100
+Wire Wire Line
+	7300 3100 7300 2800
+Wire Wire Line
+	7000 3200 7300 3200
+Wire Wire Line
+	7300 3200 7300 3100
+Wire Wire Line
+	7000 3300 7300 3300
+Wire Wire Line
+	7300 3300 7300 3200
+Connection ~ 7300 3100
+Connection ~ 7300 3200
+Text Label 7000 3100 0    10   ~ 0
++3V3
+Wire Wire Line
+	4300 3500 4200 3500
+Wire Wire Line
+	4200 3500 4200 3600
+Text Label 4300 3500 0    10   ~ 0
+GND
+Wire Wire Line
+	4700 5200 4700 5100
+Wire Wire Line
+	4700 5200 5100 5200
+Wire Wire Line
+	5100 5200 5100 5100
+Wire Wire Line
+	5100 5200 5500 5200
+Wire Wire Line
+	5500 5200 5500 5100
+Wire Wire Line
+	4700 5200 4700 5300
+Connection ~ 5100 5200
+Connection ~ 4700 5200
+Text Label 4700 5200 0    10   ~ 0
+GND
+Wire Wire Line
+	6700 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 3700
+Wire Wire Line
+	6400 3700 7300 3700
+Wire Wire Line
+	7300 3800 7300 3700
+Wire Wire Line
+	7300 3700 7300 3500
+Wire Wire Line
+	7300 3500 7000 3500
+Connection ~ 7300 3700
+Text Label 6700 3500 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 3300 5300 3300
+Text Label 5400 3300 0    50   ~ 0
+32M
+Wire Wire Line
+	7000 3400 7500 3400
+Text Label 7500 3400 0    50   ~ 0
+32M
+$Comp
+L ref_board-eagle-import:ASE X1
+U 1 1 8679BB61
+P 4800 3300
+F 0 "X1" H 4500 3625 59  0000 L BNN
+F 1 "ASE" H 4500 2900 59  0000 L BNN
+F 2 "ref_board:ASE" H 4800 3300 50  0001 C CNN
+F 3 "" H 4800 3300 50  0001 C CNN
+	1    4800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:C-EUC1206 C1
+U 1 1 A7B966D1
+P 4700 4900
+F 0 "C1" H 4760 4915 59  0000 L BNN
+F 1 "1u" H 4760 4715 59  0000 L BNN
+F 2 "ref_board:C1206" H 4700 4900 50  0001 C CNN
+F 3 "" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:C-EUC0805 C2
+U 1 1 AEC71D01
+P 5100 4900
+F 0 "C2" H 5160 4915 59  0000 L BNN
+F 1 "100n" H 5160 4715 59  0000 L BNN
+F 2 "ref_board:C0805" H 5100 4900 50  0001 C CNN
+F 3 "" H 5100 4900 50  0001 C CNN
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:C-EUC0805 C3
+U 1 1 FF5BF64D
+P 5500 4900
+F 0 "C3" H 5560 4915 59  0000 L BNN
+F 1 "10n" H 5560 4715 59  0000 L BNN
+F 2 "ref_board:C0805" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:+3V3 #+3V01
+U 1 1 7D977A11
+P 4200 2900
+F 0 "#+3V01" H 4200 2900 50  0001 C CNN
+F 1 "+3V3" V 4100 2700 59  0000 L BNN
+F 2 "" H 4200 2900 50  0001 C CNN
+F 3 "" H 4200 2900 50  0001 C CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:GND #GND01
+U 1 1 8DA2BB24
+P 4200 3700
+F 0 "#GND01" H 4200 3700 50  0001 C CNN
+F 1 "GND" H 4100 3600 59  0000 L BNN
+F 2 "" H 4200 3700 50  0001 C CNN
+F 3 "" H 4200 3700 50  0001 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:+3V3 #+3V02
+U 1 1 816AD438
+P 4700 4500
+F 0 "#+3V02" H 4700 4500 50  0001 C CNN
+F 1 "+3V3" V 4600 4300 59  0000 L BNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:GND #GND03
+U 1 1 21137572
+P 4700 5400
+F 0 "#GND03" H 4700 5400 50  0001 C CNN
+F 1 "GND" H 4600 5300 59  0000 L BNN
+F 2 "" H 4700 5400 50  0001 C CNN
+F 3 "" H 4700 5400 50  0001 C CNN
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:PINHD-2X5_90 JP1
+U 1 1 0B60073D
+P 6800 3300
+F 0 "JP1" H 6550 3625 59  0000 L BNN
+F 1 "PINHD-2X5_90" H 6550 2900 59  0000 L BNN
+F 2 "ref_board:2X05_90" H 6800 3300 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:GND #GND02
+U 1 1 4877C9E2
+P 7300 3900
+F 0 "#GND02" H 7300 3900 50  0001 C CNN
+F 1 "GND" H 7200 3800 59  0000 L BNN
+F 2 "" H 7300 3900 50  0001 C CNN
+F 3 "" H 7300 3900 50  0001 C CNN
+	1    7300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ref_board-eagle-import:+3V3 #+3V03
+U 1 1 EB5F8C4A
+P 7300 2700
+F 0 "#+3V03" H 7300 2700 50  0001 C CNN
+F 1 "+3V3" V 7200 2500 59  0000 L BNN
+F 2 "" H 7300 2700 50  0001 C CNN
+F 3 "" H 7300 2700 50  0001 C CNN
+	1    7300 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
