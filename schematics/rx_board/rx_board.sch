@@ -1,500 +1,1369 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Digital Repeater RX Board"
 Date ""
 Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment3 "Author: DB9MAT Mathis, SO3ALG Nikoloz, SP5WWP Wojciech"
+Comment4 "M17 Open Source Digital Repeater"
 $EndDescr
-Wire Wire Line
-	8500 5100 8400 5100
-Wire Wire Line
-	8400 5100 8400 5200
-Wire Wire Line
-	8400 5200 8400 5400
-Wire Wire Line
-	8400 5400 8400 5600
-Wire Wire Line
-	7900 5200 7800 5200
-Wire Wire Line
-	7800 5200 7800 5400
-Wire Wire Line
-	7800 5400 8400 5400
-Wire Wire Line
-	8300 5200 8400 5200
-Connection ~ 8400 5200
-Connection ~ 8400 5400
-Text Label 8500 5100 0    10   ~ 0
-GND
-Wire Wire Line
-	7500 5500 7500 5600
-Text Label 7500 5500 0    10   ~ 0
-GND
-Wire Wire Line
-	6900 5500 6900 5600
-Text Label 6900 5500 0    10   ~ 0
-GND
-Wire Wire Line
-	5800 5500 5800 5600
-Text Label 5800 5500 0    10   ~ 0
-GND
-Wire Wire Line
-	3300 5500 3200 5500
-Wire Wire Line
-	3200 5500 3200 5600
-Text Label 3300 5500 0    10   ~ 0
-GND
-Wire Wire Line
-	2500 3300 2500 3400
-Wire Wire Line
-	2500 3400 2900 3400
-Wire Wire Line
-	2900 3300 2900 3400
-Wire Wire Line
-	2900 3400 3200 3400
-Wire Wire Line
-	3200 3400 3200 3300
-Wire Wire Line
-	2500 3400 2500 3500
-Connection ~ 2500 3400
-Connection ~ 2900 3400
-Text Label 2500 3300 0    10   ~ 0
-GND
-Wire Wire Line
-	8400 3300 8400 3500
-Wire Wire Line
-	8400 3300 8100 3300
-Text Label 8400 3300 0    10   ~ 0
-GND
-Wire Wire Line
-	7400 5000 7500 5000
-Wire Wire Line
-	7500 5000 7500 5200
-Wire Wire Line
-	7500 5000 8100 5000
-Wire Wire Line
-	8100 5000 8500 5000
-Wire Wire Line
-	8100 5000 8100 5100
-Connection ~ 7500 5000
-Connection ~ 8100 5000
-Wire Wire Line
-	5900 4400 5800 4400
-Wire Wire Line
-	5800 4400 5800 4500
-Wire Wire Line
-	5800 4400 5500 4400
-Text Label 5500 4400 2    50   ~ 0
-RXP
-Connection ~ 5800 4400
-Wire Wire Line
-	4300 4500 4400 4500
-Text Label 4400 4500 0    50   ~ 0
-RXP
-Wire Wire Line
-	5800 5200 5800 5000
-Wire Wire Line
-	5800 5000 5800 4900
-Wire Wire Line
-	5900 5000 5800 5000
-Wire Wire Line
-	5800 5000 5500 5000
-Text Label 5500 5000 2    50   ~ 0
-RXN
-Connection ~ 5800 5000
-Wire Wire Line
-	4300 4600 4400 4600
-Text Label 4400 4600 0    50   ~ 0
-RXN
-Wire Wire Line
-	6900 5000 6900 5200
-Wire Wire Line
-	6900 5000 7000 5000
-Wire Wire Line
-	6800 5000 6900 5000
-Connection ~ 6900 5000
-Wire Wire Line
-	4300 5000 4400 5000
-Text Label 4400 5000 0    50   ~ 0
-CLK_REF
-Wire Wire Line
-	7500 3000 7800 3000
-Text Label 7500 3000 2    50   ~ 0
-CLK_REF
-Wire Wire Line
-	4300 4400 4400 4400
-Text Label 4400 4400 0    50   ~ 0
-SDN
-Wire Wire Line
-	8400 3000 8100 3000
-Text Label 8400 3000 0    50   ~ 0
-SDN
-Wire Wire Line
-	4300 4700 4400 4700
-Text Label 4400 4700 0    50   ~ 0
-SCLK
-Wire Wire Line
-	8100 3200 8400 3200
-Text Label 8400 3200 0    50   ~ 0
-SCLK
-Wire Wire Line
-	4300 4800 4400 4800
-Text Label 4400 4800 0    50   ~ 0
-NSEL
-Wire Wire Line
-	7500 3100 7800 3100
-Text Label 7500 3100 2    50   ~ 0
-NSEL
-Wire Wire Line
-	4300 4900 4400 4900
-Text Label 4400 4900 0    50   ~ 0
-SDI
-Wire Wire Line
-	8100 3100 8400 3100
-Text Label 8400 3100 0    50   ~ 0
-SDI
-Wire Wire Line
-	3300 4700 3200 4700
-Text Label 3200 4700 2    50   ~ 0
-SDO
-Wire Wire Line
-	7500 3200 7800 3200
-Text Label 7500 3200 2    50   ~ 0
-SDO
-Wire Wire Line
-	3300 4900 3200 4900
-Text Label 3200 4900 2    50   ~ 0
-NIRQ
-Wire Wire Line
-	7500 3300 7800 3300
-Text Label 7500 3300 2    50   ~ 0
-NIRQ
-Wire Wire Line
-	3300 4400 3200 4400
-Wire Wire Line
-	3200 4400 3200 4300
-Text Label 3300 4400 0    10   ~ 0
-+3V3
-Wire Wire Line
-	3200 3000 3200 2900
-Wire Wire Line
-	3200 2900 2900 2900
-Wire Wire Line
-	2900 3000 2900 2900
-Wire Wire Line
-	2900 2900 2500 2900
-Wire Wire Line
-	2500 3000 2500 2900
-Wire Wire Line
-	2500 2900 2500 2800
-Connection ~ 2500 2900
-Connection ~ 2900 2900
-Text Label 3200 3000 0    10   ~ 0
-+3V3
-Wire Wire Line
-	7800 2900 7500 2900
-Wire Wire Line
-	7500 2900 7500 2600
-Wire Wire Line
-	7500 2600 8400 2600
-Wire Wire Line
-	8400 2600 8400 2900
-Wire Wire Line
-	8400 2900 8100 2900
-Wire Wire Line
-	7500 2600 7500 2500
-Connection ~ 7500 2600
-Text Label 7800 2900 0    10   ~ 0
-+3V3
-Wire Wire Line
-	6500 5000 6400 5000
-Wire Wire Line
-	6400 5000 6300 5000
-Wire Wire Line
-	6200 4400 6400 4400
-Wire Wire Line
-	6400 5000 6400 4400
-Connection ~ 6400 5000
 $Comp
-L rx_board-eagle-import:SI4463-C2A-GM U1
-U 1 1 94FABF20
-P 3800 4900
-F 0 "U1" H 3400 5521 59  0000 L BNN
-F 1 "SI4463-C2A-GM" H 3399 4098 59  0000 L BNN
-F 2 "rx_board:QFN50P400X400X90-20N" H 3800 4900 50  0001 C CNN
-F 3 "" H 3800 4900 50  0001 C CNN
-	1    3800 4900
+L rx_board-rescue:C_Small-device-Mainboard-rescue-rx_board-rescue C219
+U 1 1 5DF79664
+P 11950 5000
+F 0 "C219" V 11721 5000 50  0000 C CNN
+F 1 "1000p" V 11812 5000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11950 5000 50  0001 C CNN
+F 3 "~" H 11950 5000 50  0001 C CNN
+F 4 "50" H 11950 5000 50  0001 C CNN "Voltage"
+F 5 "C0G" H 11950 5000 50  0001 C CNN "TempCoef"
+F 6 "5" H 11950 5000 50  0001 C CNN "Tolerance"
+	1    11950 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 9850 5000 0    50   Input ~ 10
+RX
+$Comp
+L rx_board-rescue:C_Small-device-Mainboard-rescue-rx_board-rescue C222
+U 1 1 5E0C71B9
+P 12800 5000
+F 0 "C222" V 12571 5000 50  0000 C CNN
+F 1 "1000p" V 12662 5000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12800 5000 50  0001 C CNN
+F 3 "~" H 12800 5000 50  0001 C CNN
+F 4 "50" H 12800 5000 50  0001 C CNN "Voltage"
+F 5 "C0G" H 12800 5000 50  0001 C CNN "TempCoef"
+F 6 "5" H 12800 5000 50  0001 C CNN "Tolerance"
+	1    12800 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-device-Mainboard-rescue-rx_board-rescue C223
+U 1 1 5E0C7CC9
+P 13000 5200
+F 0 "C223" H 12908 5154 50  0000 R CNN
+F 1 "9p1" H 12908 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13000 5200 50  0001 C CNN
+F 3 "~" H 13000 5200 50  0001 C CNN
+F 4 "50" H 13000 5200 50  0001 C CNN "Voltage"
+F 5 "5" H 13000 5200 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 13000 5200 50  0001 C CNN "TempCoef"
+	1    13000 5200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	12900 5000 13000 5000
+Wire Wire Line
+	13000 5000 13000 5100
+$Comp
+L rx_board-rescue:L_Small-Device-Mainboard-rescue-rx_board-rescue L205
+U 1 1 5E06C206
+P 12400 5000
+F 0 "L205" V 12585 5000 50  0000 C CNN
+F 1 "15nH" V 12494 5000 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 12400 5000 50  0001 C CNN
+F 3 "~" H 12400 5000 50  0001 C CNN
+	1    12400 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13000 5300 13000 5400
+$Comp
+L power:GND #PWR0229
+U 1 1 5E0D6EF6
+P 13000 5400
+F 0 "#PWR0229" H 13000 5150 50  0001 C CNN
+F 1 "GND" H 13005 5227 50  0000 C CNN
+F 2 "" H 13000 5400 50  0001 C CNN
+F 3 "" H 13000 5400 50  0001 C CNN
+	1    13000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 5200 14200 5400
+Connection ~ 13700 5000
+Wire Wire Line
+	13700 5000 14050 5000
+Wire Wire Line
+	13700 5300 13700 5400
+$Comp
+L power:GND #PWR0232
+U 1 1 5E0DA916
+P 13700 5400
+F 0 "#PWR0232" H 13700 5150 50  0001 C CNN
+F 1 "GND" H 13705 5227 50  0000 C CNN
+F 2 "" H 13700 5400 50  0001 C CNN
+F 3 "" H 13700 5400 50  0001 C CNN
+	1    13700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 5000 13700 5100
+$Comp
+L rx_board-rescue:C_Small-device-Mainboard-rescue-rx_board-rescue C226
+U 1 1 5E0D325A
+P 13700 5200
+F 0 "C226" H 13608 5154 50  0000 R CNN
+F 1 "9p1" H 13608 5245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13700 5200 50  0001 C CNN
+F 3 "~" H 13700 5200 50  0001 C CNN
+F 4 "50" H 13700 5200 50  0001 C CNN "Voltage"
+F 5 "5" H 13700 5200 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 13700 5200 50  0001 C CNN "TempCoef"
+	1    13700 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L rx_board-rescue:L_Small-device-Mainboard-rescue-rx_board-rescue L206
+U 1 1 5E0C8A95
+P 13350 5000
+F 0 "L206" V 13535 5000 50  0000 C CNN
+F 1 "15nH" V 13444 5000 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 13350 5000 50  0001 C CNN
+F 3 "~" H 13350 5000 50  0001 C CNN
+	1    13350 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0233
+U 1 1 5E0B0FD9
+P 14200 5400
+F 0 "#PWR0233" H 14200 5150 50  0001 C CNN
+F 1 "GND" H 14205 5227 50  0000 C CNN
+F 2 "" H 14200 5400 50  0001 C CNN
+F 3 "" H 14200 5400 50  0001 C CNN
+	1    14200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:Conn_Coaxial-conn-Mainboard-rescue-rx_board-rescue J201
+U 1 1 5E0AD389
+P 14200 5000
+F 0 "J201" H 14300 4975 50  0000 L CNN
+F 1 "Antenna" H 14300 4884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 14200 5000 50  0001 C CNN
+F 3 "" H 14200 5000 50  0001 C CNN
+	1    14200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C220
+U 1 1 5E09CAD6
+P 12300 5250
+F 0 "C220" H 12208 5204 50  0000 R CNN
+F 1 "6p2" H 12208 5295 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12300 5250 50  0001 C CNN
+F 3 "~" H 12300 5250 50  0001 C CNN
+F 4 "50" H 12300 5250 50  0001 C CNN "Voltage"
+F 5 "5" H 12300 5250 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 12300 5250 50  0001 C CNN "TempCoef"
+	1    12300 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0227
+U 1 1 5E0A2231
+P 12300 5550
+F 0 "#PWR0227" H 12300 5300 50  0001 C CNN
+F 1 "GND" H 12305 5377 50  0000 C CNN
+F 2 "" H 12300 5550 50  0001 C CNN
+F 3 "" H 12300 5550 50  0001 C CNN
+	1    12300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C221
+U 1 1 5E0ABA80
+P 12550 5100
+F 0 "C221" H 12458 5054 50  0000 R CNN
+F 1 "7p" H 12458 5145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12550 5100 50  0001 C CNN
+F 3 "~" H 12550 5100 50  0001 C CNN
+F 4 "50" H 12550 5100 50  0001 C CNN "Voltage"
+F 5 "5" H 12550 5100 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 12550 5100 50  0001 C CNN "TempCoef"
+	1    12550 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0228
+U 1 1 5E0AE108
+P 12550 5300
+F 0 "#PWR0228" H 12550 5050 50  0001 C CNN
+F 1 "GND" H 12555 5127 50  0000 C CNN
+F 2 "" H 12550 5300 50  0001 C CNN
+F 3 "" H 12550 5300 50  0001 C CNN
+	1    12550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 5300 12550 5200
+Connection ~ 13000 5000
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C224
+U 1 1 5E0DF0F8
+P 13150 5100
+F 0 "C224" H 13058 5054 50  0000 R CNN
+F 1 "0.5p" H 13058 5145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13150 5100 50  0001 C CNN
+F 3 "~" H 13150 5100 50  0001 C CNN
+F 4 "50" H 13150 5100 50  0001 C CNN "Voltage"
+F 5 "5" H 13150 5100 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 13150 5100 50  0001 C CNN "TempCoef"
+	1    13150 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C225
+U 1 1 5E0DFF97
+P 13550 5100
+F 0 "C225" H 13458 5054 50  0000 R CNN
+F 1 "0.5p" H 13458 5145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13550 5100 50  0001 C CNN
+F 3 "~" H 13550 5100 50  0001 C CNN
+F 4 "50" H 13550 5100 50  0001 C CNN "Voltage"
+F 5 "5" H 13550 5100 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 13550 5100 50  0001 C CNN "TempCoef"
+	1    13550 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R206
+U 1 1 5E11FF61
+P 13150 5350
+F 0 "R206" H 13091 5304 50  0000 R CNN
+F 1 "33k" H 13091 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13150 5350 50  0001 C CNN
+F 3 "~" H 13150 5350 50  0001 C CNN
+F 4 "0.125" H 13150 5350 50  0001 C CNN "Power"
+F 5 "5" H 13150 5350 50  0001 C CNN "Tolerance"
+	1    13150 5350
+	1    0    0    1   
+$EndComp
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R207
+U 1 1 5E1211C3
+P 13550 5350
+F 0 "R207" H 13491 5304 50  0000 R CNN
+F 1 "33k" H 13491 5395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13550 5350 50  0001 C CNN
+F 3 "~" H 13550 5350 50  0001 C CNN
+F 4 "0.125" H 13550 5350 50  0001 C CNN "Power"
+F 5 "5" H 13550 5350 50  0001 C CNN "Tolerance"
+	1    13550 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0230
+U 1 1 5E12CF91
+P 13150 5550
+F 0 "#PWR0230" H 13150 5300 50  0001 C CNN
+F 1 "GND" H 13155 5377 50  0000 C CNN
+F 2 "" H 13150 5550 50  0001 C CNN
+F 3 "" H 13150 5550 50  0001 C CNN
+	1    13150 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 5450 13150 5550
+$Comp
+L power:GND #PWR0231
+U 1 1 5E1329FE
+P 13550 5550
+F 0 "#PWR0231" H 13550 5300 50  0001 C CNN
+F 1 "GND" H 13555 5377 50  0000 C CNN
+F 2 "" H 13550 5550 50  0001 C CNN
+F 3 "" H 13550 5550 50  0001 C CNN
+	1    13550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 5450 13550 5550
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C213
+U 1 1 5E28B5A1
+P 7050 5250
+F 0 "C213" V 7000 5350 39  0000 C CNN
+F 1 "100n" V 7100 5400 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7050 5250 50  0001 C CNN
+F 3 "~" H 7050 5250 50  0001 C CNN
+F 4 "50" H 7050 5250 50  0001 C CNN "Voltage"
+F 5 "10" H 7050 5250 50  0001 C CNN "Tolerance"
+F 6 "X7R" H 7050 5250 50  0001 C CNN "TempCoef"
+	1    7050 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 5250 6950 5250
+Wire Wire Line
+	8050 5250 8050 5450
+NoConn ~ 6800 5350
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C215
+U 1 1 5E2A6268
+P 8200 5350
+F 0 "C215" H 8292 5396 50  0000 L CNN
+F 1 "10n" H 8292 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 5350 50  0001 C CNN
+F 3 "~" H 8200 5350 50  0001 C CNN
+F 4 "10" H 8200 5350 50  0001 C CNN "Tolerance"
+F 5 "50" H 8200 5350 50  0001 C CNN "Voltage"
+F 6 "X7R" H 8200 5350 50  0001 C CNN "TempCoef"
+	1    8200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5150 8200 5000
+$Comp
+L power:+3.3V #PWR0222
+U 1 1 5E2B8E01
+P 8200 5000
+F 0 "#PWR0222" H 8200 4850 50  0001 C CNN
+F 1 "+3.3V" H 8215 5173 50  0000 C CNN
+F 2 "" H 8200 5000 50  0001 C CNN
+F 3 "" H 8200 5000 50  0001 C CNN
+	1    8200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0223
+U 1 1 5E2B97C5
+P 8200 5550
+F 0 "#PWR0223" H 8200 5300 50  0001 C CNN
+F 1 "GND" H 8205 5377 50  0000 C CNN
+F 2 "" H 8200 5550 50  0001 C CNN
+F 3 "" H 8200 5550 50  0001 C CNN
+	1    8200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5450 8200 5550
+$Comp
+L power:GND #PWR0221
+U 1 1 5E2C3292
+P 8050 5550
+F 0 "#PWR0221" H 8050 5300 50  0001 C CNN
+F 1 "GND" H 8055 5377 50  0000 C CNN
+F 2 "" H 8050 5550 50  0001 C CNN
+F 3 "" H 8050 5550 50  0001 C CNN
+	1    8050 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5450 8050 5550
+Connection ~ 8050 5450
+Text GLabel 7450 5550 2    50   Input ~ 10
+ADF_SCLK
+Text GLabel 7450 5650 2    50   Input ~ 10
+ADF_SREAD
+Text GLabel 7450 5750 2    50   Input ~ 10
+ADF_SDATA
+Text GLabel 7450 5850 2    50   Input ~ 10
+ADF_SLE
+Wire Wire Line
+	8200 5150 8200 5250
+Connection ~ 8200 5150
+Wire Wire Line
+	6300 6400 6300 6500
+Wire Wire Line
+	6300 6500 6400 6500
+Text GLabel 6400 6500 2    50   Input ~ 10
+ADF_CE
+NoConn ~ 6200 6400
+NoConn ~ 6000 6400
+NoConn ~ 5900 6400
+NoConn ~ 5700 6400
+NoConn ~ 5600 6400
+NoConn ~ 5500 6400
+NoConn ~ 5400 6400
+NoConn ~ 5300 6400
+NoConn ~ 5200 6400
+$Comp
+L power:GND #PWR0216
+U 1 1 5E3D9CF0
+P 6100 6500
+F 0 "#PWR0216" H 6100 6250 50  0001 C CNN
+F 1 "GND" H 6105 6327 50  0000 C CNN
+F 2 "" H 6100 6500 50  0001 C CNN
+F 3 "" H 6100 6500 50  0001 C CNN
+	1    6100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0214
+U 1 1 5E3DAB40
+P 5800 6500
+F 0 "#PWR0214" H 5800 6250 50  0001 C CNN
+F 1 "GND" H 5805 6327 50  0000 C CNN
+F 2 "" H 5800 6500 50  0001 C CNN
+F 3 "" H 5800 6500 50  0001 C CNN
+	1    5800 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6400 5800 6500
+Wire Wire Line
+	6100 6400 6100 6500
+$Comp
+L power:GND #PWR0218
+U 1 1 5E3EEEBD
+P 6900 6500
+F 0 "#PWR0218" H 6900 6250 50  0001 C CNN
+F 1 "GND" H 6905 6327 50  0000 C CNN
+F 2 "" H 6900 6500 50  0001 C CNN
+F 3 "" H 6900 6500 50  0001 C CNN
+	1    6900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 6150 6900 6150
+Wire Wire Line
+	6900 6150 6900 6500
+$Comp
+L power:GND #PWR0211
+U 1 1 5E3F9D6A
+P 4550 6500
+F 0 "#PWR0211" H 4550 6250 50  0001 C CNN
+F 1 "GND" H 4555 6327 50  0000 C CNN
+F 2 "" H 4550 6500 50  0001 C CNN
+F 3 "" H 4550 6500 50  0001 C CNN
+	1    4550 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5850 4550 5850
+Wire Wire Line
+	4550 5850 4550 6500
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C206
+U 1 1 5E406A00
+P 4250 6150
+F 0 "C206" H 4342 6196 50  0000 L CNN
+F 1 "100n" H 4342 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4250 6150 50  0001 C CNN
+F 3 "~" H 4250 6150 50  0001 C CNN
+F 4 "50" H 4250 6150 50  0001 C CNN "Voltage"
+F 5 "10" H 4250 6150 50  0001 C CNN "Tolerance"
+F 6 "X7R" H 4250 6150 50  0001 C CNN "TempCoef"
+	1    4250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0209
+U 1 1 5E407D99
+P 4250 6500
+F 0 "#PWR0209" H 4250 6250 50  0001 C CNN
+F 1 "GND" H 4255 6327 50  0000 C CNN
+F 2 "" H 4250 6500 50  0001 C CNN
+F 3 "" H 4250 6500 50  0001 C CNN
+	1    4250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6250 4250 6500
+Wire Wire Line
+	4250 6050 4250 5750
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R202
+U 1 1 5E41DD9F
+P 3950 6150
+F 0 "R202" H 4009 6196 50  0000 L CNN
+F 1 "3k6" H 4009 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3950 6150 50  0001 C CNN
+F 3 "~" H 3950 6150 50  0001 C CNN
+F 4 "0.125" H 3950 6150 50  0001 C CNN "Power"
+F 5 "5" H 3950 6150 50  0001 C CNN "Tolerance"
+	1    3950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 5E41EF62
+P 3950 6500
+F 0 "#PWR0208" H 3950 6250 50  0001 C CNN
+F 1 "GND" H 3955 6327 50  0000 C CNN
+F 2 "" H 3950 6500 50  0001 C CNN
+F 3 "" H 3950 6500 50  0001 C CNN
+	1    3950 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6250 3950 6500
+Wire Wire Line
+	3950 6050 3950 5650
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C203
+U 1 1 5E435E4D
+P 3650 6150
+F 0 "C203" H 3742 6196 50  0000 L CNN
+F 1 "10n" H 3742 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 6150 50  0001 C CNN
+F 3 "~" H 3650 6150 50  0001 C CNN
+F 4 "10" H 3650 6150 50  0001 C CNN "Tolerance"
+F 5 "50" H 3650 6150 50  0001 C CNN "Voltage"
+F 6 "X7R" H 3650 6150 50  0001 C CNN "TempCoef"
+	1    3650 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 5E44277E
+P 3650 6500
+F 0 "#PWR0205" H 3650 6250 50  0001 C CNN
+F 1 "GND" H 3655 6327 50  0000 C CNN
+F 2 "" H 3650 6500 50  0001 C CNN
+F 3 "" H 3650 6500 50  0001 C CNN
+	1    3650 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6250 3650 6500
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R201
+U 1 1 5E45AB33
+P 3350 6150
+F 0 "R201" H 3409 6196 50  0000 L CNN
+F 1 "1k1" H 3409 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3350 6150 50  0001 C CNN
+F 3 "~" H 3350 6150 50  0001 C CNN
+F 4 "0.125" H 3350 6150 50  0001 C CNN "Power"
+F 5 "5" H 3350 6150 50  0001 C CNN "Tolerance"
+	1    3350 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5450 3350 6050
+$Comp
+L power:GND #PWR0202
+U 1 1 5E467878
+P 3350 6500
+F 0 "#PWR0202" H 3350 6250 50  0001 C CNN
+F 1 "GND" H 3355 6327 50  0000 C CNN
+F 2 "" H 3350 6500 50  0001 C CNN
+F 3 "" H 3350 6500 50  0001 C CNN
+	1    3350 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6250 3350 6500
+Wire Wire Line
+	4250 5750 4650 5750
+Wire Wire Line
+	3950 5650 4650 5650
+Wire Wire Line
+	3650 5550 4650 5550
+Wire Wire Line
+	3650 5550 3650 6050
+Wire Wire Line
+	3350 5450 4650 5450
+Wire Wire Line
+	4650 5350 3250 5350
+Wire Wire Line
+	3250 5350 3250 5650
+$Comp
+L rx_board-rescue:L_Small-Device-Mainboard-rescue-rx_board-rescue L201
+U 1 1 5E4E9959
+P 3050 5450
+F 0 "L201" V 3000 5400 50  0000 L CNN
+F 1 "27n" V 3150 5400 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 3050 5450 50  0001 C CNN
+F 3 "~" H 3050 5450 50  0001 C CNN
+	1    3050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5650 3050 5650
+Wire Wire Line
+	3050 5650 3050 5550
+Wire Wire Line
+	3050 5350 3050 5250
+Wire Wire Line
+	3050 5250 4650 5250
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C202
+U 1 1 5E5058E7
+P 3050 6150
+F 0 "C202" H 3142 6196 50  0000 L CNN
+F 1 "6p8" H 3142 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 6150 50  0001 C CNN
+F 3 "~" H 3050 6150 50  0001 C CNN
+F 4 "50" H 3050 6150 50  0001 C CNN "Voltage"
+F 5 "C0G" H 3050 6150 50  0001 C CNN "TempCoef"
+F 6 "5" H 3050 6150 50  0001 C CNN "Tolerance"
+	1    3050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5E506EFA
+P 3050 6500
+F 0 "#PWR0201" H 3050 6250 50  0001 C CNN
+F 1 "GND" H 3055 6327 50  0000 C CNN
+F 2 "" H 3050 6500 50  0001 C CNN
+F 3 "" H 3050 6500 50  0001 C CNN
+	1    3050 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6250 3050 6500
+Wire Wire Line
+	3050 5650 3050 6050
+Connection ~ 3050 5650
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C201
+U 1 1 5E522131
+P 2800 5250
+F 0 "C201" H 2950 5150 50  0000 C CNN
+F 1 "4p7" H 2950 5350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2800 5250 50  0001 C CNN
+F 3 "~" H 2800 5250 50  0001 C CNN
+F 4 "50" H 2800 5250 50  0001 C CNN "Voltage"
+F 5 "C0G" H 2800 5250 50  0001 C CNN "TempCoef"
+F 6 "5" H 2800 5250 50  0001 C CNN "Tolerance"
+	1    2800 5250
+	0    -1   1    0   
+$EndComp
+Connection ~ 3050 5250
+Wire Wire Line
+	2900 5250 3050 5250
+Wire Wire Line
+	2700 5250 2600 5250
+Text GLabel 2600 5250 0    50   Input ~ 10
+RX
+Wire Wire Line
+	4650 5150 4550 5150
+$Comp
+L power:GND #PWR0210
+U 1 1 5E581A0F
+P 4550 5150
+F 0 "#PWR0210" H 4550 4900 50  0001 C CNN
+F 1 "GND" V 4555 5022 50  0000 R CNN
+F 2 "" H 4550 5150 50  0001 C CNN
+F 3 "" H 4550 5150 50  0001 C CNN
+	1    4550 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0204
+U 1 1 5E606987
+P 3650 5000
+F 0 "#PWR0204" H 3650 4850 50  0001 C CNN
+F 1 "+3.3V" H 3665 5173 50  0000 C CNN
+F 2 "" H 3650 5000 50  0001 C CNN
+F 3 "" H 3650 5000 50  0001 C CNN
+	1    3650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C205
+U 1 1 5E606EE2
+P 3950 4550
+F 0 "C205" H 4042 4596 50  0000 L CNN
+F 1 "10n" H 4042 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3950 4550 50  0001 C CNN
+F 3 "~" H 3950 4550 50  0001 C CNN
+F 4 "10" H 3950 4550 50  0001 C CNN "Tolerance"
+F 5 "50" H 3950 4550 50  0001 C CNN "Voltage"
+F 6 "X7R" H 3950 4550 50  0001 C CNN "TempCoef"
+	1    3950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0207
+U 1 1 5E606EEC
+P 3950 4750
+F 0 "#PWR0207" H 3950 4500 50  0001 C CNN
+F 1 "GND" H 3955 4577 50  0000 C CNN
+F 2 "" H 3950 4750 50  0001 C CNN
+F 3 "" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4650 3950 4750
+$Comp
+L power:+3.3V #PWR0206
+U 1 1 5E6175EC
+P 3950 4250
+F 0 "#PWR0206" H 3950 4100 50  0001 C CNN
+F 1 "+3.3V" H 3965 4423 50  0000 C CNN
+F 2 "" H 3950 4250 50  0001 C CNN
+F 3 "" H 3950 4250 50  0001 C CNN
+	1    3950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4950 4250 4950
+Wire Wire Line
+	4650 4750 4550 4750
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R203
+U 1 1 5E657124
+P 4150 3650
+F 0 "R203" V 3954 3650 50  0000 C CNN
+F 1 "3R9" V 4045 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 3650 50  0001 C CNN
+F 3 "~" H 4150 3650 50  0001 C CNN
+F 4 "0.125" H 4150 3650 50  0001 C CNN "Power"
+F 5 "5" H 4150 3650 50  0001 C CNN "Tolerance"
+	1    4150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C204
+U 1 1 5E65807F
+P 3850 3650
+F 0 "C204" V 3621 3650 50  0000 C CNN
+F 1 "100n" V 3712 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3850 3650 50  0001 C CNN
+F 3 "~" H 3850 3650 50  0001 C CNN
+F 4 "50" H 3850 3650 50  0001 C CNN "Voltage"
+F 5 "10" H 3850 3650 50  0001 C CNN "Tolerance"
+F 6 "X7R" H 3850 3650 50  0001 C CNN "TempCoef"
+	1    3850 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3650 4050 3650
+$Comp
+L power:GND #PWR0203
+U 1 1 5E669C8F
+P 3650 3750
+F 0 "#PWR0203" H 3650 3500 50  0001 C CNN
+F 1 "GND" H 3655 3577 50  0000 C CNN
+F 2 "" H 3650 3750 50  0001 C CNN
+F 3 "" H 3650 3750 50  0001 C CNN
+	1    3650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3650 3650 3650
+Wire Wire Line
+	3650 3650 3650 3750
+Wire Wire Line
+	5300 4150 5300 4050
+Wire Wire Line
+	5300 4050 5500 4050
+Wire Wire Line
+	5500 4050 5500 4150
+Wire Wire Line
+	5300 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 4150
+Connection ~ 5300 4050
+$Comp
+L power:GND #PWR0212
+U 1 1 5E69DFD9
+P 4700 4150
+F 0 "#PWR0212" H 4700 3900 50  0001 C CNN
+F 1 "GND" H 4705 3977 50  0000 C CNN
+F 2 "" H 4700 4150 50  0001 C CNN
+F 3 "" H 4700 4150 50  0001 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C208
+U 1 1 5E69E757
+P 5000 3650
+F 0 "C208" V 4771 3650 50  0000 C CNN
+F 1 "22n" V 4862 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 3650 50  0001 C CNN
+F 3 "~" H 5000 3650 50  0001 C CNN
+F 4 "50" H 5000 3650 50  0001 C CNN "Voltage"
+F 5 "X7R" H 5000 3650 50  0001 C CNN "TempCoef"
+F 6 "10" H 5000 3650 50  0001 C CNN "Tolerance"
+	1    5000 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 4450 3950 4350
+Wire Wire Line
+	3950 4350 4250 4350
+Wire Wire Line
+	4250 4350 4250 4950
+Wire Wire Line
+	3950 4250 3950 4350
+Connection ~ 3950 4350
+Connection ~ 3650 5550
+Wire Wire Line
+	5100 3650 5200 3650
+Wire Wire Line
+	5200 3650 5200 4150
+Wire Wire Line
+	4250 3650 4450 3650
+Wire Wire Line
+	4450 3650 4450 4850
+Connection ~ 4450 3650
+Wire Wire Line
+	4450 3650 4900 3650
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R204
+U 1 1 5E7B0720
+P 5000 2600
+F 0 "R204" H 5059 2646 50  0000 L CNN
+F 1 "560" H 5059 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5000 2600 50  0001 C CNN
+F 3 "~" H 5000 2600 50  0001 C CNN
+F 4 "0.125" H 5000 2600 50  0001 C CNN "Power"
+F 5 "5" H 5000 2600 50  0001 C CNN "Tolerance"
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:R_Small-Device-Mainboard-rescue-rx_board-rescue R205
+U 1 1 5E7B09A5
+P 5300 2600
+F 0 "R205" H 5359 2646 50  0000 L CNN
+F 1 "270" H 5359 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 2600 50  0001 C CNN
+F 3 "~" H 5300 2600 50  0001 C CNN
+F 4 "0.125" H 5300 2600 50  0001 C CNN "Power"
+F 5 "5" H 5300 2600 50  0001 C CNN "Tolerance"
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C210
+U 1 1 5E7B0D8A
+P 5600 2600
+F 0 "C210" H 5650 2700 50  0000 L CNN
+F 1 "1n" H 5650 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5600 2600 50  0001 C CNN
+F 3 "~" H 5600 2600 50  0001 C CNN
+F 4 "50" H 5600 2600 50  0001 C CNN "Voltage"
+F 5 "X7R" H 5600 2600 50  0001 C CNN "TempCoef"
+F 6 "10" H 5600 2600 50  0001 C CNN "Tolerance"
+	1    5600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C207
+U 1 1 5E7B1D9F
+P 5000 3000
+F 0 "C207" H 5092 3046 50  0000 L CNN
+F 1 "470p" H 5092 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+F 4 "50" H 5000 3000 50  0001 C CNN "Voltage"
+F 5 "C0G" H 5000 3000 50  0001 C CNN "TempCoef"
+F 6 "5" H 5000 3000 50  0001 C CNN "Tolerance"
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C209
+U 1 1 5E7B3173
+P 5300 3000
+F 0 "C209" H 5392 3046 50  0000 L CNN
+F 1 "15n" H 5392 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 3000 50  0001 C CNN
+F 3 "~" H 5300 3000 50  0001 C CNN
+F 4 "50" H 5300 3000 50  0001 C CNN "Voltage"
+F 5 "X7R" H 5300 3000 50  0001 C CNN "TempCoef"
+F 6 "10" H 5300 3000 50  0001 C CNN "Tolerance"
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2700 5300 2900
+Wire Wire Line
+	5000 2500 5000 2400
+Wire Wire Line
+	5000 2400 5300 2400
+Wire Wire Line
+	5300 2400 5300 2500
+Wire Wire Line
+	5300 2400 5600 2400
+Wire Wire Line
+	5600 2400 5600 2500
+Connection ~ 5300 2400
+Wire Wire Line
+	5000 3100 5000 3200
+Wire Wire Line
+	5000 3200 5300 3200
+Wire Wire Line
+	5300 3200 5300 3100
+Wire Wire Line
+	5300 3200 5600 3200
+Wire Wire Line
+	5600 3200 5600 2700
+Connection ~ 5300 3200
+Wire Wire Line
+	5300 3200 5300 3300
+Wire Wire Line
+	5800 4150 5800 2800
+Wire Wire Line
+	5800 2400 5600 2400
+Connection ~ 5600 2400
+$Comp
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C212
+U 1 1 5E88DD91
+P 6550 4050
+F 0 "C212" V 6321 4050 50  0000 C CNN
+F 1 "100n" V 6412 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 4050 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+F 4 "50" H 6550 4050 50  0001 C CNN "Voltage"
+F 5 "10" H 6550 4050 50  0001 C CNN "Tolerance"
+F 6 "X7R" H 6550 4050 50  0001 C CNN "TempCoef"
+	1    6550 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0217
+U 1 1 5E88DD9B
+P 6750 4150
+F 0 "#PWR0217" H 6750 3900 50  0001 C CNN
+F 1 "GND" H 6755 3977 50  0000 C CNN
+F 2 "" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 4050 6750 4050
+Wire Wire Line
+	6750 4050 6750 4150
+Wire Wire Line
+	5900 4150 5900 4050
+Wire Wire Line
+	5900 4050 6450 4050
 $Comp
-L rx_board-eagle-import:SMA-142-0701-871_876 X2
-U 1 1 4D1F0A27
-P 8600 5000
-F 0 "X2" H 8500 5130 59  0000 L BNN
-F 1 "SMA" H 8500 4800 59  0000 L BNN
-F 2 "rx_board:J502-ND-142-0701-871_876" H 8600 5000 50  0001 C CNN
-F 3 "" H 8600 5000 50  0001 C CNN
-	1    8600 5000
-	-1   0    0    -1  
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C211
+U 1 1 5E8CFCCF
+P 6550 3650
+F 0 "C211" V 6321 3650 50  0000 C CNN
+F 1 "10n" V 6412 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6550 3650 50  0001 C CNN
+F 3 "~" H 6550 3650 50  0001 C CNN
+F 4 "10" H 6550 3650 50  0001 C CNN "Tolerance"
+F 5 "50" H 6550 3650 50  0001 C CNN "Voltage"
+F 6 "X7R" H 6550 3650 50  0001 C CNN "TempCoef"
+	1    6550 3650
+	0    -1   1    0   
 $EndComp
+Wire Wire Line
+	5700 4150 5700 3650
+Wire Wire Line
+	5700 3650 6000 3650
+Wire Wire Line
+	6000 4150 6000 3650
+Connection ~ 6000 3650
+Wire Wire Line
+	6000 3650 6450 3650
+Wire Wire Line
+	6650 3650 6750 3650
+Wire Wire Line
+	6750 3650 6750 4050
+Connection ~ 6750 4050
+Wire Wire Line
+	6000 3650 6000 3550
 $Comp
-L rx_board-eagle-import:R-EU_R0805 LM3
-U 1 1 F9D46F69
-P 7200 5000
-F 0 "LM3" H 7050 5059 59  0000 L BNN
-F 1 "15nH" H 7050 4870 59  0000 L BNN
-F 2 "rx_board:R0805" H 7200 5000 50  0001 C CNN
-F 3 "" H 7200 5000 50  0001 C CNN
-	1    7200 5000
+L power:+3.3V #PWR0215
+U 1 1 5E940DC5
+P 6000 3550
+F 0 "#PWR0215" H 6000 3400 50  0001 C CNN
+F 1 "+3.3V" H 6015 3723 50  0000 C CNN
+F 2 "" H 6000 3550 50  0001 C CNN
+F 3 "" H 6000 3550 50  0001 C CNN
+	1    6000 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6800 5150 8200 5150
+Text GLabel 7600 5050 2    50   Output ~ 10
+ADF_SWD
+Wire Wire Line
+	5000 2700 5000 2800
+Wire Wire Line
+	4550 2800 4550 3300
+Wire Wire Line
+	4450 4850 4650 4850
+Connection ~ 5000 2800
+Wire Wire Line
+	5000 2800 5000 2900
+Text Notes 4450 3200 2    50   ~ 0
+Voltage at this point should be 0.2-2V
+Wire Notes Line
+	4450 3200 2950 3200
 $Comp
-L rx_board-eagle-import:R-EU_R0805 LR1
-U 1 1 92F2B099
-P 5800 4700
-F 0 "LR1" H 5650 4759 59  0000 L BNN
-F 1 "56nH" H 5650 4570 59  0000 L BNN
-F 2 "rx_board:R0805" H 5800 4700 50  0001 C CNN
-F 3 "" H 5800 4700 50  0001 C CNN
-	1    5800 4700
+L rx_board-rescue:TestPoint_Probe-Connector-Mainboard-rescue-rx_board-rescue TP201
+U 1 1 5E4BA4A8
+P 4550 3300
+F 0 "TP201" H 4703 3401 50  0000 L CNN
+F 1 "TestPoint_Probe" H 4703 3310 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 3300 50  0001 C CNN
+F 3 "~" H 4750 3300 50  0001 C CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 3300
+Wire Wire Line
+	4550 3300 4550 4750
+$Comp
+L rx_board-rescue:TestPoint_Probe-Connector-Mainboard-rescue-rx_board-rescue TP202
+U 1 1 5E4BB697
+P 5800 2800
+F 0 "TP202" H 5953 2901 50  0000 L CNN
+F 1 "TestPoint_Probe" H 5953 2810 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6000 2800 50  0001 C CNN
+F 3 "~" H 6000 2800 50  0001 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 2800
+Wire Wire Line
+	5800 2800 5800 2400
+$Comp
+L power:GND #PWR0213
+U 1 1 5E8261D5
+P 5300 3300
+F 0 "#PWR0213" H 5300 3050 50  0001 C CNN
+F 1 "GND" H 5305 3127 50  0000 C CNN
+F 2 "" H 5300 3300 50  0001 C CNN
+F 3 "" H 5300 3300 50  0001 C CNN
+	1    5300 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 4750 2    50   Input ~ 10
+SPI2_SCK
+Text GLabel 7600 4850 2    50   Input ~ 10
+SPI2_MISO
+Text GLabel 7600 4950 2    50   Input ~ 10
+SPI2_MOSI
+$Comp
+L rx_board-rescue:L_Small-Device-Mainboard-rescue-rx_board-rescue L202
+U 1 1 5E528AE0
+P 5500 3900
+F 0 "L202" V 5450 3850 50  0000 L CNN
+F 1 "DNP" V 5600 3850 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 5500 3900 50  0001 C CNN
+F 3 "~" H 5500 3900 50  0001 C CNN
+	1    5500 3900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	5600 3900 5600 4150
+Wire Wire Line
+	5400 3900 5400 4150
 $Comp
-L rx_board-eagle-import:R-EU_R0805 LR2
-U 1 1 C3326327
-P 6100 5000
-F 0 "LR2" H 5950 5059 59  0000 L BNN
-F 1 "51nH" H 5950 4870 59  0000 L BNN
-F 2 "rx_board:R0805" H 6100 5000 50  0001 C CNN
-F 3 "" H 6100 5000 50  0001 C CNN
-	1    6100 5000
+L rx_board-rescue:C_Small-device-Mainboard-rescue-rx_board-rescue C?
+U 1 1 5E56F3D1
+P 7900 6300
+AR Path="/5DEDCA32/5E56F3D1" Ref="C?"  Part="1" 
+AR Path="/5DF0E505/5E56F3D1" Ref="C?"  Part="1" 
+AR Path="/5E56F3D1" Ref="C214"  Part="1" 
+F 0 "C214" H 7992 6346 50  0000 L CNN
+F 1 "22u/TA" H 7992 6255 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 7900 6300 50  0001 C CNN
+F 3 "~" H 7900 6300 50  0001 C CNN
+F 4 "TAJA226K006RNJV" H 7900 6300 50  0001 C CNN "Partno"
+F 5 "10" H 7900 6300 50  0001 C CNN "Tolerance"
+F 6 "10" H 7900 6300 50  0001 C CNN "Voltage"
+F 7 "TANTAL" H 7900 6300 50  0001 C CNN "TempCoef"
+	1    7900 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 6100 7900 6200
+Wire Wire Line
+	7900 6500 7900 6400
+$Comp
+L power:+3.3V #PWR0219
+U 1 1 5E5897DB
+P 7900 6100
+F 0 "#PWR0219" H 7900 5950 50  0001 C CNN
+F 1 "+3.3V" H 7915 6273 50  0000 C CNN
+F 2 "" H 7900 6100 50  0001 C CNN
+F 3 "" H 7900 6100 50  0001 C CNN
+	1    7900 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L rx_board-eagle-import:C-EUC0805 CM3
-U 1 1 A3667564
-P 7500 5300
-F 0 "CM3" H 7560 5315 59  0000 L BNN
-F 1 "9p1" H 7560 5115 59  0000 L BNN
-F 2 "rx_board:C0805" H 7500 5300 50  0001 C CNN
-F 3 "" H 7500 5300 50  0001 C CNN
-	1    7500 5300
+L power:GND #PWR0220
+U 1 1 5E589C85
+P 7900 6500
+F 0 "#PWR0220" H 7900 6250 50  0001 C CNN
+F 1 "GND" H 7905 6327 50  0000 C CNN
+F 2 "" H 7900 6500 50  0001 C CNN
+F 3 "" H 7900 6500 50  0001 C CNN
+	1    7900 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7600 4650 2    50   Output ~ 10
+ADF_MUXOUT
+$Comp
+L rx_board-rescue:ADF7021-adf7021-rx_board-rescue U201
+U 1 1 5E245F16
+P 5650 5300
+F 0 "U201" H 5650 5350 49  0000 C CNN
+F 1 "ADF7021" H 5650 5250 49  0000 C CNN
+F 2 "Package_CSP:LFCSP-48-1EP_7x7mm_P0.5mm_EP4.1x4.1mm_ThermalVias" H 5450 5050 49  0001 C CNN
+F 3 "" H 5450 5050 49  0001 C CNN
+	1    5650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4150 6300 3950
+Wire Wire Line
+	6300 3950 6850 3950
+$Comp
+L Device:R_Pack04 RN202
+U 1 1 5E711FA8
+P 7200 4850
+F 0 "RN202" V 6783 4850 50  0000 C CNN
+F 1 "4 x 1k ISOLATED" V 6874 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 7475 4850 50  0001 C CNN
+F 3 "~" H 7200 4850 50  0001 C CNN
+F 4 "5" H 7200 4850 50  0001 C CNN "Tolerance"
+	1    7200 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 5050 7600 5050
+Wire Wire Line
+	7400 4950 7600 4950
+Wire Wire Line
+	7600 4850 7400 4850
+Wire Wire Line
+	7400 4750 7600 4750
+Wire Wire Line
+	7600 4650 7400 4650
+Wire Wire Line
+	6850 4650 7000 4650
+Wire Wire Line
+	6850 3950 6850 4650
+Wire Wire Line
+	7000 4750 6800 4750
+Wire Wire Line
+	7000 4850 6800 4850
+Wire Wire Line
+	7000 4950 6800 4950
+$Comp
+L Device:R_Pack04 RN201
+U 1 1 5E8F8B20
+P 7150 5750
+F 0 "RN201" V 7350 5750 50  0000 C CNN
+F 1 "4 x 1k ISOLATED" V 7450 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 7425 5750 50  0001 C CNN
+F 3 "~" H 7150 5750 50  0001 C CNN
+F 4 "5" H 7150 5750 50  0001 C CNN "Tolerance"
+	1    7150 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 5250 8050 5250
+Wire Wire Line
+	6800 5450 8050 5450
+Wire Wire Line
+	6800 5550 6950 5550
+Wire Wire Line
+	6800 5650 6950 5650
+Wire Wire Line
+	6800 5750 6950 5750
+Wire Wire Line
+	6800 5850 6950 5850
+Wire Wire Line
+	7350 5550 7450 5550
+Wire Wire Line
+	7450 5650 7350 5650
+Wire Wire Line
+	7350 5750 7450 5750
+Wire Wire Line
+	7350 5850 7450 5850
+$Comp
+L Device:L_Small L204
+U 1 1 5EB6932C
+P 11700 5200
+F 0 "L204" H 11748 5246 50  0000 L CNN
+F 1 "20nH" H 11748 5155 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 11700 5200 50  0001 C CNN
+F 3 "~" H 11700 5200 50  0001 C CNN
+	1    11700 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rx_board-eagle-import:C-EUC0805 CM2
-U 1 1 4B67AF05
-P 6900 5300
-F 0 "CM2" H 6960 5315 59  0000 L BNN
-F 1 "9p1" H 6960 5115 59  0000 L BNN
-F 2 "rx_board:C0805" H 6900 5300 50  0001 C CNN
-F 3 "" H 6900 5300 50  0001 C CNN
-	1    6900 5300
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C218
+U 1 1 5EB6AF5F
+P 11400 5000
+F 0 "C218" H 11308 4954 50  0000 R CNN
+F 1 "5p1" H 11308 5045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11400 5000 50  0001 C CNN
+F 3 "~" H 11400 5000 50  0001 C CNN
+F 4 "50" H 11400 5000 50  0001 C CNN "Voltage"
+F 5 "5" H 11400 5000 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 11400 5000 50  0001 C CNN "TempCoef"
+	1    11400 5000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:L_Small L203
+U 1 1 5EB6CEAB
+P 11150 5200
+F 0 "L203" H 11198 5246 50  0000 L CNN
+F 1 "13nH" H 11198 5155 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 11150 5200 50  0001 C CNN
+F 3 "~" H 11150 5200 50  0001 C CNN
+	1    11150 5200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rx_board-eagle-import:C-EUC0805 CR1
-U 1 1 F5729516
-P 5800 5300
-F 0 "CR1" H 5860 5315 59  0000 L BNN
-F 1 "3p9" H 5860 5115 59  0000 L BNN
-F 2 "rx_board:C0805" H 5800 5300 50  0001 C CNN
-F 3 "" H 5800 5300 50  0001 C CNN
-	1    5800 5300
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C217
+U 1 1 5EB6D251
+P 10850 5000
+F 0 "C217" H 10758 4954 50  0000 R CNN
+F 1 "8p2" H 10758 5045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10850 5000 50  0001 C CNN
+F 3 "~" H 10850 5000 50  0001 C CNN
+F 4 "50" H 10850 5000 50  0001 C CNN "Voltage"
+F 5 "5" H 10850 5000 50  0001 C CNN "Tolerance"
+F 6 "C0G" H 10850 5000 50  0001 C CNN "TempCoef"
+	1    10850 5000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10650 5000 10750 5000
+$Comp
+L power:GND #PWR0226
+U 1 1 5EC16C67
+P 11150 5550
+F 0 "#PWR0226" H 11150 5300 50  0001 C CNN
+F 1 "GND" H 11155 5377 50  0000 C CNN
+F 2 "" H 11150 5550 50  0001 C CNN
+F 3 "" H 11150 5550 50  0001 C CNN
+	1    11150 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 5000 12300 5150
+$Comp
+L power:+3.3V #PWR0224
+U 1 1 5ECF6899
+P 10450 4350
+F 0 "#PWR0224" H 10450 4200 50  0001 C CNN
+F 1 "+3.3V" H 10465 4523 50  0000 C CNN
+F 2 "" H 10450 4350 50  0001 C CNN
+F 3 "" H 10450 4350 50  0001 C CNN
+	1    10450 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L rx_board-eagle-import:C-EUC0805 CR2
-U 1 1 7EC2353A
-P 6000 4400
-F 0 "CR2" H 6060 4415 59  0000 L BNN
-F 1 "2p2" H 6060 4215 59  0000 L BNN
-F 2 "rx_board:C0805" H 6000 4400 50  0001 C CNN
-F 3 "" H 6000 4400 50  0001 C CNN
-	1    6000 4400
+L rx_board-rescue:C_Small-Device-Mainboard-rescue-rx_board-rescue C216
+U 1 1 5ED2084B
+P 10850 4500
+F 0 "C216" H 10758 4454 50  0000 R CNN
+F 1 "22n" H 10758 4545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10850 4500 50  0001 C CNN
+F 3 "~" H 10850 4500 50  0001 C CNN
+F 4 "50" H 10850 4500 50  0001 C CNN "Voltage"
+F 5 "X7R" H 10850 4500 50  0001 C CNN "TempCoef"
+F 6 "10" H 10850 4500 50  0001 C CNN "Tolerance"
+	1    10850 4500
+	0    -1   1    0   
+$EndComp
+Connection ~ 10450 4500
+$Comp
+L power:GND #PWR0225
+U 1 1 5ED3FE5B
+P 11150 4500
+F 0 "#PWR0225" H 11150 4250 50  0001 C CNN
+F 1 "GND" H 11155 4327 50  0000 C CNN
+F 2 "" H 11150 4500 50  0001 C CNN
+F 3 "" H 11150 4500 50  0001 C CNN
+	1    11150 4500
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	9850 5000 10050 5000
+Wire Wire Line
+	10950 4500 11150 4500
+Wire Wire Line
+	10450 4350 10450 4500
+Wire Wire Line
+	10950 5000 11150 5000
+Wire Wire Line
+	11150 5100 11150 5000
+Connection ~ 11150 5000
+Wire Wire Line
+	11150 5000 11300 5000
+Wire Wire Line
+	11500 5000 11700 5000
+Wire Wire Line
+	11700 5100 11700 5000
+Connection ~ 11700 5000
+Wire Wire Line
+	11700 5000 11850 5000
+Wire Wire Line
+	12300 5350 12300 5550
+Wire Wire Line
+	11700 5300 11700 5450
+Wire Wire Line
+	11700 5450 11150 5450
+Wire Wire Line
+	10450 5450 10450 5300
+Wire Wire Line
+	11150 5300 11150 5450
+Connection ~ 11150 5450
+Wire Wire Line
+	11150 5450 10450 5450
+Wire Wire Line
+	11150 5450 11150 5550
+Wire Wire Line
+	12050 5000 12300 5000
+Wire Wire Line
+	3650 5000 3650 5550
 $Comp
-L rx_board-eagle-import:GND #GND025
-U 1 1 F212C7DE
-P 8400 5700
-F 0 "#GND025" H 8400 5700 50  0001 C CNN
-F 1 "GND" H 8300 5600 59  0000 L BNN
-F 2 "" H 8400 5700 50  0001 C CNN
-F 3 "" H 8400 5700 50  0001 C CNN
-	1    8400 5700
-	1    0    0    -1  
+L bga2874-rf_amplifier:BGA2874-RF_Amplifier U202
+U 1 1 5F5D18B7
+P 10350 5000
+F 0 "U202" H 10500 5200 50  0000 R CNN
+F 1 "BGA2874-RF_Amplifier" H 11150 5300 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10300 4350 50  0001 C CNN
+F 3 "" H 10350 5000 50  0001 C CNN
+	1    10350 5000
+	-1   0    0    1   
 $EndComp
-$Comp
-L rx_board-eagle-import:GND #GND046
-U 1 1 6BBB6AA2
-P 7500 5700
-F 0 "#GND046" H 7500 5700 50  0001 C CNN
-F 1 "GND" H 7400 5600 59  0000 L BNN
-F 2 "" H 7500 5700 50  0001 C CNN
-F 3 "" H 7500 5700 50  0001 C CNN
-	1    7500 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:GND #GND047
-U 1 1 E3D3C258
-P 6900 5700
-F 0 "#GND047" H 6900 5700 50  0001 C CNN
-F 1 "GND" H 6800 5600 59  0000 L BNN
-F 2 "" H 6900 5700 50  0001 C CNN
-F 3 "" H 6900 5700 50  0001 C CNN
-	1    6900 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:GND #GND048
-U 1 1 A043859C
-P 5800 5700
-F 0 "#GND048" H 5800 5700 50  0001 C CNN
-F 1 "GND" H 5700 5600 59  0000 L BNN
-F 2 "" H 5800 5700 50  0001 C CNN
-F 3 "" H 5800 5700 50  0001 C CNN
-	1    5800 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:GND #GND01
-U 1 1 8DA2BB24
-P 3200 5700
-F 0 "#GND01" H 3200 5700 50  0001 C CNN
-F 1 "GND" H 3100 5600 59  0000 L BNN
-F 2 "" H 3200 5700 50  0001 C CNN
-F 3 "" H 3200 5700 50  0001 C CNN
-	1    3200 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:+3V3 #+3V01
-U 1 1 7D977A11
-P 3200 4200
-F 0 "#+3V01" H 3200 4200 50  0001 C CNN
-F 1 "+3V3" V 3100 4000 59  0000 L BNN
-F 2 "" H 3200 4200 50  0001 C CNN
-F 3 "" H 3200 4200 50  0001 C CNN
-	1    3200 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:C-EUC1206 C1
-U 1 1 BB5F006F
-P 2500 3100
-F 0 "C1" H 2560 3115 59  0000 L BNN
-F 1 "1u/TA" H 2560 2915 59  0000 L BNN
-F 2 "rx_board:C1206" H 2500 3100 50  0001 C CNN
-F 3 "" H 2500 3100 50  0001 C CNN
-	1    2500 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:C-EUC0805 C2
-U 1 1 BFE17F55
-P 2900 3100
-F 0 "C2" H 2960 3115 59  0000 L BNN
-F 1 "10n" H 2960 2915 59  0000 L BNN
-F 2 "rx_board:C0805" H 2900 3100 50  0001 C CNN
-F 3 "" H 2900 3100 50  0001 C CNN
-	1    2900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:C-EUC0805 C3
-U 1 1 4B2BE393
-P 3200 3100
-F 0 "C3" H 3260 3115 59  0000 L BNN
-F 1 "1n" H 3260 2915 59  0000 L BNN
-F 2 "rx_board:C0805" H 3200 3100 50  0001 C CNN
-F 3 "" H 3200 3100 50  0001 C CNN
-	1    3200 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:GND #GND03
-U 1 1 21137572
-P 2500 3600
-F 0 "#GND03" H 2500 3600 50  0001 C CNN
-F 1 "GND" H 2400 3500 59  0000 L BNN
-F 2 "" H 2500 3600 50  0001 C CNN
-F 3 "" H 2500 3600 50  0001 C CNN
-	1    2500 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:+3V3 #+3V02
-U 1 1 816AD438
-P 2500 2700
-F 0 "#+3V02" H 2500 2700 50  0001 C CNN
-F 1 "+3V3" V 2400 2500 59  0000 L BNN
-F 2 "" H 2500 2700 50  0001 C CNN
-F 3 "" H 2500 2700 50  0001 C CNN
-	1    2500 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:BAS70-04 D1
-U 1 1 C78C3FBD
-P 8100 5200
-F 0 "D1" H 8130 5279 59  0000 L BNN
-F 1 "BAS70-04" H 7930 5044 59  0000 L BNN
-F 2 "rx_board:SOT23" H 8100 5200 50  0001 C CNN
-F 3 "" H 8100 5200 50  0001 C CNN
-	1    8100 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:C-EUC0805 C4
-U 1 1 C0BA6C28
-P 6600 5000
-F 0 "C4" H 6660 5015 59  0000 L BNN
-F 1 "1n" H 6660 4815 59  0000 L BNN
-F 2 "rx_board:C0805" H 6600 5000 50  0001 C CNN
-F 3 "" H 6600 5000 50  0001 C CNN
-	1    6600 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L rx_board-eagle-import:PINHD-2X5_90 JP1
-U 1 1 0B60073D
-P 7900 3100
-F 0 "JP1" H 7650 3425 59  0000 L BNN
-F 1 "PINHD-2X5_90" H 7650 2700 59  0000 L BNN
-F 2 "rx_board:2X05_90" H 7900 3100 50  0001 C CNN
-F 3 "" H 7900 3100 50  0001 C CNN
-	1    7900 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:+3V3 #+3V03
-U 1 1 EB5F8C4A
-P 7500 2400
-F 0 "#+3V03" H 7500 2400 50  0001 C CNN
-F 1 "+3V3" V 7400 2200 59  0000 L BNN
-F 2 "" H 7500 2400 50  0001 C CNN
-F 3 "" H 7500 2400 50  0001 C CNN
-	1    7500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rx_board-eagle-import:GND #GND02
-U 1 1 4877C9E2
-P 8400 3600
-F 0 "#GND02" H 8400 3600 50  0001 C CNN
-F 1 "GND" H 8300 3500 59  0000 L BNN
-F 2 "" H 8400 3600 50  0001 C CNN
-F 3 "" H 8400 3600 50  0001 C CNN
-	1    8400 3600
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	13150 5200 13150 5250
+Wire Wire Line
+	13550 5200 13550 5250
+Text Notes 12450 4650 0    50   ~ 0
+Dummy input RX filter, to be done\nDO NOT USE AS IS
+Wire Wire Line
+	13000 5000 13150 5000
+Wire Wire Line
+	13450 5000 13550 5000
+Connection ~ 13150 5000
+Wire Wire Line
+	13150 5000 13250 5000
+Connection ~ 13550 5000
+Wire Wire Line
+	13550 5000 13700 5000
+Wire Wire Line
+	12550 5000 12700 5000
+Wire Wire Line
+	12550 5000 12500 5000
+Connection ~ 12550 5000
+Connection ~ 12300 5000
+Wire Wire Line
+	6200 3250 6200 4150
+Text GLabel 7600 3250 2    50   Input ~ 10
+EXT_OSC_IN
+NoConn ~ 4650 5050
+Wire Wire Line
+	4550 2800 5000 2800
+Wire Wire Line
+	6200 3250 7600 3250
+NoConn ~ 6100 4150
+Wire Wire Line
+	10450 4500 10450 4700
+Wire Wire Line
+	10450 4500 10750 4500
 $EndSCHEMATC

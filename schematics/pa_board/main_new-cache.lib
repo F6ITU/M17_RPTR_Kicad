@@ -1,6 +1,47 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_Coaxial
+#
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # main_new-eagle-import_AK500_2
 #
 DEF main_new-eagle-import_AK500_2 X 0 40 Y Y 2 L N
@@ -52,36 +93,6 @@ X - - 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# main_new-eagle-import_GND
-#
-DEF main_new-eagle-import_GND #GND 0 40 Y Y 1 L P
-F0 "#GND" 0 0 50 H I C CNN
-F1 "main_new-eagle-import_GND" -100 -100 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -75 0 75 0 N
-X GND 1 0 100 100 D 0 0 1 0 W
-ENDDRAW
-ENDDEF
-#
-# main_new-eagle-import_MOUNT-PAD-ROUND3.2
-#
-DEF main_new-eagle-import_MOUNT-PAD-ROUND3.2 H 0 40 Y Y 1 L N
-F0 "H" 110 23 59 H V L BNN
-F1 "main_new-eagle-import_MOUNT-PAD-ROUND3.2" 110 -97 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 0 81 71 829 1 0 40 N 80 10 10 80
-A 0 0 81 971 1729 1 0 40 N -10 80 -80 10
-A 0 0 81 -1729 -971 1 0 40 N -80 -10 -10 -80
-A 0 0 81 -829 -71 1 0 40 N 10 -80 80 -10
-C 0 0 60 1 0 2 N
-X MOUNT B3,2 -100 0 100 R 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # main_new-eagle-import_R-EU_0411_12
 #
 DEF main_new-eagle-import_R-EU_0411_12 R 0 40 Y Y 1 L N
@@ -99,30 +110,6 @@ X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# main_new-eagle-import_SMA-142-0711-821_826
-#
-DEF main_new-eagle-import_SMA-142-0711-821_826 X 0 40 Y Y 1 L N
-F0 "X" -100 130 59 H V L BNN
-F1 "main_new-eagle-import_SMA-142-0711-821_826" -100 -200 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A -98 0 100 115 911 1 0 12 N 0 20 -100 100
-A -98 0 100 -911 -115 1 0 12 N -100 -100 0 -20
-P 2 1 0 0 -100 20 -30 20 N
-P 2 1 0 0 -30 -20 -100 -20 N
-P 2 1 0 0 -30 20 -20 0 N
-P 2 1 0 0 -20 0 -30 -20 N
-P 2 1 0 0 0 -100 -30 -70 N
-P 2 1 0 0 0 0 -20 0 N
-X 1 1 100 0 100 L 0 0 1 0 P
-X 2 G@1 100 -100 100 L 0 0 1 0 P
-X 2 G@2 100 -100 100 L 0 0 1 0 P
-X 2 G@3 100 -100 100 L 0 0 1 0 P
-X 2 G@4 100 -100 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # main_new-eagle-import_SMD5
 #
 DEF main_new-eagle-import_SMD5 PAD 0 40 Y Y 1 L N
@@ -134,6 +121,32 @@ DRAW
 P 2 1 0 0 -40 -40 40 40 N
 P 2 1 0 0 -40 40 40 -40 N
 X P 1 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
