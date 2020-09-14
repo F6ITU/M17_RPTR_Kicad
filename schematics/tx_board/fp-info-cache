@@ -1,4 +1,4 @@
-4080517372889743
+4083717103377754
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -18115,6 +18115,13 @@ test point THT pad
 0
 1
 1
+edge_contact
+edge_2x14pin
+
+
+0
+28
+28
 lib
 Ham_Logo
 
@@ -18122,6 +18129,13 @@ Ham_Logo
 0
 0
 0
+lib
+WE_36103205_SMD
+
+
+0
+16
+1
 lib
 m17_silk_Logo
 
