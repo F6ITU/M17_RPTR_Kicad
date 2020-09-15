@@ -26,6 +26,49 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Mechanical_MountingHole_Pad
 #
 DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
@@ -74,42 +117,6 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# main_new-eagle-import_CPOL-EUE5-8.5
-#
-DEF main_new-eagle-import_CPOL-EUE5-8.5 C 0 40 Y Y 1 L N
-F0 "C" 45 19 59 H V L BNN
-F1 "main_new-eagle-import_CPOL-EUE5-8.5" 45 -181 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 900 -23 16 42 0 1 0 + Normal 0 L B
-S -65 -100 65 -65 1 0 0 F
-P 2 1 0 0 -60 -35 60 -35 N
-P 2 1 0 0 -60 0 -60 -35 N
-P 2 1 0 0 -60 0 60 0 N
-P 2 1 0 0 60 -35 60 0 N
-X + + 0 100 100 D 0 0 1 0 P
-X - - 0 -200 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# main_new-eagle-import_R-EU_0411_12
-#
-DEF main_new-eagle-import_R-EU_0411_12 R 0 40 Y Y 1 L N
-F0 "R" -150 59 59 H V L BNN
-F1 "main_new-eagle-import_R-EU_0411_12" -150 -130 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 -35 -100 35 N
-P 2 1 0 0 -100 -35 100 -35 N
-P 2 1 0 0 100 -35 100 35 N
-P 2 1 0 0 100 35 -100 35 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # main_new-eagle-import_SMD5
 #
 DEF main_new-eagle-import_SMD5 PAD 0 40 Y Y 1 L N
@@ -121,6 +128,21 @@ DRAW
 P 2 1 0 0 -40 -40 40 40 N
 P 2 1 0 0 -40 40 40 -40 N
 X P 1 100 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# power_+15V
+#
+DEF power_+15V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+15V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +15V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
